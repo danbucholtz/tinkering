@@ -1,0 +1,31 @@
+
+.container {
+  height: 91px;
+  background-color: var(--header-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--font);
+}
+
+.logo {
+  margin-left: 20px;
+  color: white;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  margin-right: 45px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

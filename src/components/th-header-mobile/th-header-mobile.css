@@ -1,0 +1,8 @@
+.container {
+  height: 44px;
+  background-color: var(--header-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--font);
+}
