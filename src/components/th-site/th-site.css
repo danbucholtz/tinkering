@@ -1,15 +1,16 @@
 .grid {
     display: grid;
-    grid-template-columns: 150px auto 150px;
     grid-gap: 1em;
   }
   
-  th-header, footer {
+  th-header, th-main-content, footer {
     grid-column: 1 / 4;
   }
+
   
   @media all and (max-width: 700px) {
     aside,
+    th-archtecture-process,
     article {
       grid-column: 1 / 4;
     }
@@ -24,8 +25,12 @@
   }
   
   th-header,
-  aside,
+  th-archtecture-process,
   article,
-  footer {
+  footer, .main-content {
     background: #eaeaea;
+  }
+
+  th-architecture-process {
+    margin-left: 30px;
   }

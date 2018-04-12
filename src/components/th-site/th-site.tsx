@@ -12,9 +12,9 @@ export class ThSite {
       <div class="grid">
         <th-header></th-header>
 
-        <aside class="sidebar-left">
-          Left Sidebar
-        </aside>
+        <th-main-content></th-main-content>
+
+        <th-architecture-process></th-architecture-process>
 
         <article>
           Article

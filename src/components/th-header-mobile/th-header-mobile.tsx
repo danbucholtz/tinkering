@@ -6,16 +6,17 @@ import { Component } from '@stencil/core';
   shadow: true
 })
 export class ThHeaderMobile {
+
   
   render() {
     return [
       <ion-header>
         <ion-toolbar>
-          <ion-title>Buttons - Basic</ion-title>
+          <ion-title>Theranos</ion-title>
           <ion-buttons slot="primary">
-            <ion-button slot="icon-only">
-              <ion-icon name="more"></ion-icon>
-            </ion-button>
+            <ion-menu-toggle>
+              <ion-button>Menu</ion-button>
+            </ion-menu-toggle>
           </ion-buttons>
         </ion-toolbar>
       </ion-header>

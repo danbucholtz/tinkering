@@ -117,6 +117,60 @@ declare global {
 
 
 declare global {
+  interface HTMLThArchitectureProcessElement extends HTMLStencilElement {
+
+  }
+  var HTMLThArchitectureProcessElement: {
+    prototype: HTMLThArchitectureProcessElement;
+    new (): HTMLThArchitectureProcessElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-architecture-process': HTMLThArchitectureProcessElement;
+  }
+  interface ElementTagNameMap {
+    'th-architecture-process': HTMLThArchitectureProcessElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-architecture-process': JSXElements.ThArchitectureProcessAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThArchitectureProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThGenericProcessElement extends HTMLStencilElement {
+
+  }
+  var HTMLThGenericProcessElement: {
+    prototype: HTMLThGenericProcessElement;
+    new (): HTMLThGenericProcessElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-generic-process': HTMLThGenericProcessElement;
+  }
+  interface ElementTagNameMap {
+    'th-generic-process': HTMLThGenericProcessElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-generic-process': JSXElements.ThGenericProcessAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThGenericProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThHeaderDesktopElement extends HTMLStencilElement {
 
   }
@@ -191,6 +245,33 @@ declare global {
   }
   namespace JSXElements {
     export interface ThHeaderAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThMainContentElement: {
+    prototype: HTMLThMainContentElement;
+    new (): HTMLThMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-main-content': HTMLThMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-main-content': HTMLThMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-main-content': JSXElements.ThMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThMainContentAttributes extends HTMLAttributes {
 
     }
   }

@@ -1,0 +1,24 @@
+
+.container {
+  font-family: var(--font);
+}
+
+circle {
+  fill: #4A81F7;
+}
+
+text {
+  transform: translate3d(0px, 3px, 0px);
+  fill: #333;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 30px;
+}
+
+.section-title {
+  margin-left: 20px;
+}
