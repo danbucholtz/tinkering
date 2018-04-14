@@ -4,22 +4,23 @@
   align-items: center;
   justify-content: center;
   font-family: var(--font);
+  text-align: center;
 }
 
 .text-container {
-  max-width: 960px;
-  margin: 50px 30px;
+  margin: 65px 0px;
 }
 
 h1 {
-  text-align: center;
   font-size: 48px;
-  color: #161616;
+  color: var(--nearly-black-text);
+  font-weight: 300;
 }
 
 h2 {
+  
   padding-top: 40px;
-  color: #787878;
+  color: var(--medium-grey-text);
   font-weight: 300;
   font-size: 24px;
   line-height: 36px;
@@ -27,9 +28,8 @@ h2 {
 
 h3 {
   padding: 60px 0px 15px 0px;
-  color: #4d4c4c;
+  color: var(--light-grey-text);
   font-size: 20px;
   font-weight: 300;
-  text-align: center;
   border-bottom: 1px solid #DADADA;
 }

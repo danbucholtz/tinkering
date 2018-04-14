@@ -1,6 +1,7 @@
 
 .container {
   font-family: var(--font);
+  padding: 10px;
 }
 
 circle {
@@ -10,15 +11,24 @@ circle {
 text {
   transform: translate3d(0px, 3px, 0px);
   fill: #333;
+  text-anchor: middle;
+  font-size: 30px;
 }
 
 .title {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 30px;
 }
 
-.section-title {
-  margin-left: 20px;
+.section-title-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.copy {
+  color: var(--medium-grey-text);
 }

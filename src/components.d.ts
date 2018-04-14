@@ -144,8 +144,36 @@ declare global {
 
 
 declare global {
-  interface HTMLThGenericProcessElement extends HTMLStencilElement {
+  interface HTMLThEngineeringProcessElement extends HTMLStencilElement {
 
+  }
+  var HTMLThEngineeringProcessElement: {
+    prototype: HTMLThEngineeringProcessElement;
+    new (): HTMLThEngineeringProcessElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-engineering-process': HTMLThEngineeringProcessElement;
+  }
+  interface ElementTagNameMap {
+    'th-engineering-process': HTMLThEngineeringProcessElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-engineering-process': JSXElements.ThEngineeringProcessAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThEngineeringProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThGenericProcessElement extends HTMLStencilElement {
+    'number': string;
+    'title': string;
   }
   var HTMLThGenericProcessElement: {
     prototype: HTMLThGenericProcessElement;
@@ -164,7 +192,8 @@ declare global {
   }
   namespace JSXElements {
     export interface ThGenericProcessAttributes extends HTMLAttributes {
-
+      'number'?: string;
+      'title'?: string;
     }
   }
 }
@@ -299,6 +328,33 @@ declare global {
   }
   namespace JSXElements {
     export interface ThSiteAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThTrainingProcessElement extends HTMLStencilElement {
+
+  }
+  var HTMLThTrainingProcessElement: {
+    prototype: HTMLThTrainingProcessElement;
+    new (): HTMLThTrainingProcessElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-training-process': HTMLThTrainingProcessElement;
+  }
+  interface ElementTagNameMap {
+    'th-training-process': HTMLThTrainingProcessElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-training-process': JSXElements.ThTrainingProcessAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThTrainingProcessAttributes extends HTMLAttributes {
 
     }
   }

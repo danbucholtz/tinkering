@@ -9,7 +9,7 @@ export class ThArchitectureProcess {
   
   render() {
     return [
-      <th-generic-process></th-generic-process>
+      <th-generic-process number="1" title="Architecture"></th-generic-process>
     ];
   }
 }

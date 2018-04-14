@@ -8,27 +8,43 @@ import { Component } from '@stencil/core';
 export class ThSite {
 
   render() {
-    return (
+    /*return (
       <div class="grid">
         <th-header></th-header>
 
-        <th-main-content></th-main-content>
+        /*
 
-        <th-architecture-process></th-architecture-process>
-
-        <article>
-          Article
-        </article>
-
-        <aside class="sidebar-right">
-          Right Sidebar
-        </aside>
+        <div class="services-container">
+          
+          <th-training-process></th-training-process>
+          <th-engineering-process></th-engineering-process>
+        </div>
         
         <footer>
           Footer
         </footer>
       </div>
     );
+    */
+
+    return  (
+      <div class="grid">
+        <th-header></th-header>
+        
+        <th-main-content></th-main-content>
+
+        <th-architecture-process></th-architecture-process>
+        <th-training-process></th-training-process>
+        <th-engineering-process></th-engineering-process>
+      </div>
+    )
   }
 }
 
+/*
+<!--<th-architecture-process></th-architecture-process>
+
+        
+
+        
+        */

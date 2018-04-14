@@ -11,8 +11,12 @@
   "Segoe UI Symbol";
 
   --header-bg-color: #1F3B75;
+  --nearly-black-text: #161616;
+  --medium-grey-text: #787878;
+  --light-grey-text: #4d4c4c;
 }
 
 body {
   margin: 0px;
+  -webkit-font-smoothing: antialiased;
 }

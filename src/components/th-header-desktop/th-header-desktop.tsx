@@ -10,7 +10,7 @@ export class ThHeaderDesktop {
   render() {
     return [
       <div class="container">
-        <div class="logo">Logo</div>
+        <div class="logo">Theranos</div>
         <nav>
           <a href="/about">About</a>
           <a href="/blog">Blog</a>

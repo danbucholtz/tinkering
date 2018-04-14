@@ -1,36 +1,41 @@
 .grid {
-    display: grid;
-    grid-gap: 1em;
-  }
-  
-  th-header, th-main-content, footer {
-    grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+th-header {
+  grid-column: 1 / 9;
+}
+
+th-main-content {
+  grid-column: 2 / 8;
+}
+
+th-architecture-process {
+  grid-column: 2 / 4;
+}
+
+
+th-training-process {
+  grid-column: 4 / 6;
+}
+
+th-engineering-process {
+  grid-column: 6 / 8;
+}
+
+@media all and (max-width: 700px) {
+
+  th-main-content {
+    grid-column: 1 / 9;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  
-  @media all and (max-width: 700px) {
-    aside,
-    th-archtecture-process,
-    article {
-      grid-column: 1 / 4;
-    }
-  }
-  
-  /* Demo Specific Styles */
-  body {
-    /*margin: 0 auto;
-    max-width: 56em;
-    padding: 1em 0;
-    */
-  }
-  
-  th-header,
-  th-archtecture-process,
-  article,
-  footer, .main-content {
-    background: #eaeaea;
+  th-architecture-process,
+  th-training-process,
+  th-engineering-process {
+    grid-column: 1 / 9;
   }
 
-  th-architecture-process {
-    margin-left: 30px;
-  }
+}
