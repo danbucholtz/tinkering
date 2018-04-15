@@ -3,11 +3,15 @@
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }
 
-th-header {
+th-header, th-landing-team, th-footer {
   grid-column: 1 / 9;
 }
 
 th-main-content {
+  grid-column: 2 / 8;
+}
+
+th-good-hands {
   grid-column: 2 / 8;
 }
 
@@ -22,6 +26,14 @@ th-training-process {
 
 th-engineering-process {
   grid-column: 6 / 8;
+}
+
+@media all and (max-width: 1050px) {
+  th-architecture-process,
+  th-training-process,
+  th-engineering-process {
+    grid-column: 2 / 8;
+  }
 }
 
 @media all and (max-width: 700px) {

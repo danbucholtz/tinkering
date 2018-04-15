@@ -26,95 +26,6 @@ declare global {
 import 'ionicons';
 import '@ionic/core';
 
-import {
-  EventEmitter,
-} from '@stencil/core';
-
-declare global {
-  interface HTMLAppHomeElement extends HTMLStencilElement {
-
-  }
-  var HTMLAppHomeElement: {
-    prototype: HTMLAppHomeElement;
-    new (): HTMLAppHomeElement;
-  };
-  interface HTMLElementTagNameMap {
-    'app-home': HTMLAppHomeElement;
-  }
-  interface ElementTagNameMap {
-    'app-home': HTMLAppHomeElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'app-home': JSXElements.AppHomeAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface AppHomeAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-  interface HTMLAppProfileElement extends HTMLStencilElement {
-    'name': string;
-  }
-  var HTMLAppProfileElement: {
-    prototype: HTMLAppProfileElement;
-    new (): HTMLAppProfileElement;
-  };
-  interface HTMLElementTagNameMap {
-    'app-profile': HTMLAppProfileElement;
-  }
-  interface ElementTagNameMap {
-    'app-profile': HTMLAppProfileElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'app-profile': JSXElements.AppProfileAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface AppProfileAttributes extends HTMLAttributes {
-      'name'?: string;
-    }
-  }
-}
-
-
-declare global {
-  interface HTMLLazyImgElement extends HTMLStencilElement {
-    'alt': string;
-    'src': string;
-    'width': number;
-  }
-  var HTMLLazyImgElement: {
-    prototype: HTMLLazyImgElement;
-    new (): HTMLLazyImgElement;
-  };
-  interface HTMLElementTagNameMap {
-    'lazy-img': HTMLLazyImgElement;
-  }
-  interface ElementTagNameMap {
-    'lazy-img': HTMLLazyImgElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'lazy-img': JSXElements.LazyImgAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface LazyImgAttributes extends HTMLAttributes {
-      'alt'?: string;
-      'onLazyImgloaded'?: (event: CustomEvent<HTMLImageElement>) => void;
-      'src'?: string;
-      'width'?: number;
-    }
-  }
-}
-
 
 declare global {
   interface HTMLThArchitectureProcessElement extends HTMLStencilElement {
@@ -171,9 +82,39 @@ declare global {
 
 
 declare global {
+  interface HTMLThFooterElement extends HTMLStencilElement {
+
+  }
+  var HTMLThFooterElement: {
+    prototype: HTMLThFooterElement;
+    new (): HTMLThFooterElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-footer': HTMLThFooterElement;
+  }
+  interface ElementTagNameMap {
+    'th-footer': HTMLThFooterElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-footer': JSXElements.ThFooterAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThFooterAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThGenericProcessElement extends HTMLStencilElement {
-    'number': string;
-    'title': string;
+    'bodyContent': string;
+    'buttonClass': string;
+    'imagePath': string;
+    'titleClass': string;
+    'titleText': string;
   }
   var HTMLThGenericProcessElement: {
     prototype: HTMLThGenericProcessElement;
@@ -192,8 +133,38 @@ declare global {
   }
   namespace JSXElements {
     export interface ThGenericProcessAttributes extends HTMLAttributes {
-      'number'?: string;
-      'title'?: string;
+      'bodyContent'?: string;
+      'buttonClass'?: string;
+      'imagePath'?: string;
+      'titleClass'?: string;
+      'titleText'?: string;
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThGoodHandsElement extends HTMLStencilElement {
+
+  }
+  var HTMLThGoodHandsElement: {
+    prototype: HTMLThGoodHandsElement;
+    new (): HTMLThGoodHandsElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-good-hands': HTMLThGoodHandsElement;
+  }
+  interface ElementTagNameMap {
+    'th-good-hands': HTMLThGoodHandsElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-good-hands': JSXElements.ThGoodHandsAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThGoodHandsAttributes extends HTMLAttributes {
+
     }
   }
 }
@@ -274,6 +245,33 @@ declare global {
   }
   namespace JSXElements {
     export interface ThHeaderAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingTeamElement extends HTMLStencilElement {
+
+  }
+  var HTMLThLandingTeamElement: {
+    prototype: HTMLThLandingTeamElement;
+    new (): HTMLThLandingTeamElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-team': HTMLThLandingTeamElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-team': HTMLThLandingTeamElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-team': JSXElements.ThLandingTeamAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingTeamAttributes extends HTMLAttributes {
 
     }
   }

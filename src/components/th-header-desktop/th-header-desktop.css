@@ -1,7 +1,7 @@
 
 .container {
   height: 91px;
-  background-color: var(--header-bg-color);
+  background-color: var(--dark-blue);
   display: flex;
   align-items: center;
   justify-content: flex-start;

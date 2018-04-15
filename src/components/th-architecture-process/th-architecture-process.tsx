@@ -9,8 +9,13 @@ export class ThArchitectureProcess {
   
   render() {
     return [
-      <th-generic-process number="1" title="Architecture"></th-generic-process>
+      <th-generic-process 
+        imagePath="/assets/images/architecture.png"
+        titleText="Architecture"
+        bodyContent="Our architects help plan the optimal strategy and solution to improve team velocity and collaboration, while also addressing key technical challenges throughout the entire stack."
+        buttonClass="green-btn"
+        titleClass="green-text"
+      ></th-generic-process>
     ];
   }
 }
-

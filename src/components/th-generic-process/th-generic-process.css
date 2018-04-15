@@ -1,34 +1,61 @@
 
 .container {
+  margin: 15px;
+  padding: 25px;
   font-family: var(--font);
-  padding: 10px;
+  box-shadow: 0 22px 44px 0 rgba(0,13,36,.1), 0 4px 16px 0 rgba(0,13,35,.12);
+  border-radius: 16px;
+  min-height: 375px;
+  display: flex;
+  flex-flow: column;
 }
 
-circle {
-  fill: #4A81F7;
+
+.img-container {
+  height: 100px;
+  text-align: center;
 }
 
-text {
-  transform: translate3d(0px, 3px, 0px);
-  fill: #333;
-  text-anchor: middle;
-  font-size: 30px;
+.icon {
+  height: 100%;
 }
 
 .title {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .08em;
 }
 
-.section-title-container {
-  display: flex;
-  justify-content: center;
+.body {
+  margin-top: 10px;
+  color: var(--light-grey-text);
   flex-grow: 1;
-  font-size: 36px;
-  font-weight: 300;
 }
 
-.copy {
-  color: var(--medium-grey-text);
+.btn-container {
+  text-align: center;
+}
+
+ion-button.green-btn button {
+  background-color: var(--green);
+}
+
+.green-text {
+  color: var(--green);
+}
+
+ion-button.red-btn button {
+  background-color: var(--red);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+ion-button.purple-btn button {
+  background-color: var(--purple);
+}
+
+.purple-text {
+  color: var(--purple);
 }

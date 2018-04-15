@@ -36,6 +36,12 @@ export class ThSite {
         <th-architecture-process></th-architecture-process>
         <th-training-process></th-training-process>
         <th-engineering-process></th-engineering-process>
+
+        <th-good-hands></th-good-hands>
+
+        <th-landing-team></th-landing-team>
+        
+        <th-footer></th-footer>
       </div>
     )
   }

@@ -3,28 +3,31 @@ import { Component, Prop } from '@stencil/core';
 @Component({
   tag: 'th-generic-process',
   styleUrl: 'th-generic-process.css',
-  shadow: true
 })
 export class ThGenericProcess {
 
-  @Prop() number: string;
-  @Prop() title: string
+  @Prop() imagePath: string;
+  @Prop() titleText: string;
+  @Prop() bodyContent: string;
+  @Prop() buttonClass: string = '';
+  @Prop() titleClass: string = '';
   
   render() {
-    return [
+    const titleClasses = `title ${this.titleClass}`;
+    return (
       <div class="container">
-        <div class="title">
-          <svg height="50" width="50">
-            <circle cx="25" cy="25" r="25"/>
-            <text x="50%" y="50%" dy="7.5px">{this.number}</text>
-          </svg>
-          <div class="section-title-container">{this.title}</div>
+        <div class="img-container">
+          <img class="icon" src={this.imagePath} decoding="async"></img>
         </div>
-        <div class="copy">
-          <p>Our architects help plan the optimal strategy to improve team velocity and collaboration, while also addressing key technical challenges.</p>
+        <h2 class={titleClasses}>{this.titleText}</h2>
+        <div class="body">
+        {this.bodyContent}
+        </div>
+        <div class="btn-container">
+          <ion-button class={this.buttonClass}>Learn More</ion-button>
         </div>
       </div>
-    ];
+    )
   }
 }
 

@@ -1,0 +1,9 @@
+.container {
+  font-family: var(--font);
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 20px 0px 100px 0px;
+  height: 800px;
+}
