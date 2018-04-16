@@ -358,4 +358,31 @@ declare global {
   }
 }
 
+
+declare global {
+  interface HTMLThWhatWeDoElement extends HTMLStencilElement {
+
+  }
+  var HTMLThWhatWeDoElement: {
+    prototype: HTMLThWhatWeDoElement;
+    new (): HTMLThWhatWeDoElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-what-we-do': HTMLThWhatWeDoElement;
+  }
+  interface ElementTagNameMap {
+    'th-what-we-do': HTMLThWhatWeDoElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-what-we-do': JSXElements.ThWhatWeDoAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThWhatWeDoAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }

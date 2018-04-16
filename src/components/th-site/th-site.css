@@ -11,6 +11,11 @@ th-main-content {
   grid-column: 2 / 8;
 }
 
+th-what-we-do {
+  grid-column: 2 / 8;
+}
+
+
 th-good-hands {
   grid-column: 2 / 8;
 }

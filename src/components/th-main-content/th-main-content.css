@@ -1,19 +1,17 @@
 
 .container {
+  box-sizing: border-box;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-family: var(--font);
   text-align: center;
-}
-
-.text-container {
-  margin-top: 65px;
+  min-height: var(--desktop-main-container-height);
+  padding-top: 75px;
 }
 
 h1 {
   font-size: 48px;
-  color: var(--nearly-black-text);
+  color: #FFF;
   font-weight: 700;
   letter-spacing: -.039em;
 }
@@ -21,16 +19,9 @@ h1 {
 h2 {
   
   padding-top: 40px;
-  color: var(--medium-grey-text);
+  color: #DDD;
   font-weight: 300;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -.015em;
-}
-
-h3 {
-  margin: 120px 0px 15px 0px;
-  color: var(--blue);
-  font-size: 30px;
-  font-weight: 600;
 }

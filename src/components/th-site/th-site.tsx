@@ -33,6 +33,8 @@ export class ThSite {
         
         <th-main-content></th-main-content>
 
+        <th-what-we-do></th-what-we-do>
+
         <th-architecture-process></th-architecture-process>
         <th-training-process></th-training-process>
         <th-engineering-process></th-engineering-process>

@@ -22,10 +22,17 @@
   --red: #f3375f;
   --orange: #ffa800;
 
+  --desktop-header-height: 91px;
+  --desktop-splash-image-height: 833px;
+  --desktop-main-container-height: calc(var(--desktop-splash-image-height) - var(--desktop-header-height));
+  box-sizing: border-box;
 }
 
 body {
   margin: 0px;
   -webkit-font-smoothing: antialiased;
+  background-image: url('/assets/images/splash2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 700px cover;
 }
 

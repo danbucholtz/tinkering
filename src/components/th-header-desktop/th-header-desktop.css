@@ -1,7 +1,6 @@
 
 .container {
-  height: 91px;
-  background-color: var(--dark-blue);
+  height: var(--desktop-header-height);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -21,6 +20,10 @@ nav {
 }
 
 a {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: .25em;
   color: white;
   margin-right: 45px;
   text-decoration: none;
