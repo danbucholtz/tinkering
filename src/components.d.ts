@@ -82,6 +82,60 @@ declare global {
 
 
 declare global {
+  interface HTMLThFooterLinksElement extends HTMLStencilElement {
+
+  }
+  var HTMLThFooterLinksElement: {
+    prototype: HTMLThFooterLinksElement;
+    new (): HTMLThFooterLinksElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-footer-links': HTMLThFooterLinksElement;
+  }
+  interface ElementTagNameMap {
+    'th-footer-links': HTMLThFooterLinksElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-footer-links': JSXElements.ThFooterLinksAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThFooterLinksAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThFooterMailingListElement extends HTMLStencilElement {
+
+  }
+  var HTMLThFooterMailingListElement: {
+    prototype: HTMLThFooterMailingListElement;
+    new (): HTMLThFooterMailingListElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-footer-mailing-list': HTMLThFooterMailingListElement;
+  }
+  interface ElementTagNameMap {
+    'th-footer-mailing-list': HTMLThFooterMailingListElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-footer-mailing-list': JSXElements.ThFooterMailingListAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThFooterMailingListAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThFooterElement extends HTMLStencilElement {
 
   }

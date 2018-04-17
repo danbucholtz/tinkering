@@ -10,7 +10,8 @@ export class ThFooter {
   render() {
     return [
       <div class="container">
-        Footer
+        <th-footer-links></th-footer-links>
+        <th-footer-mailing-list></th-footer-mailing-list>
       </div>
     ];
   }

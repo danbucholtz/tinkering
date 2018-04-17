@@ -1,0 +1,6 @@
+.container {
+  font-family: var(--font);
+  padding-top: 30px;
+  height: 200px;
+  background-color: red;
+}

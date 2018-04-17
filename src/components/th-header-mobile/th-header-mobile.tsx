@@ -12,7 +12,7 @@ export class ThHeaderMobile {
     return [
       <ion-header>
         <ion-toolbar>
-          <ion-title>Theranos</ion-title>
+          <ion-title>Theracode</ion-title>
           <ion-buttons slot="primary">
             <ion-menu-toggle>
               <ion-button>Menu</ion-button>

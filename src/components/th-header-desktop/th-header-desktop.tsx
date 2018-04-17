@@ -10,12 +10,15 @@ export class ThHeaderDesktop {
   render() {
     return [
       <div class="container">
-        <div class="logo">Theranos</div>
+        <div class="logo">
+          <img src="/assets/logo.png"></img>
+          <h1>Theracode</h1>
+        </div>
         <nav>
           <a href="/about">About</a>
           <a href="/blog">Blog</a>
           <a href="/solutions">Solutions</a>
-          <a href="https://twitter.com/danbucholtz">Twitter</a>
+          <a href="/Team">Team</a>
           <ion-button>Contact</ion-button>
         </nav>
       </div>

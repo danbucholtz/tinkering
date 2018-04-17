@@ -1,0 +1,67 @@
+.container {
+  font-family: var(--font);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 50px;
+}
+
+.icon-container {
+  grid-column: 1 / 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 0px;
+  color: #FFF;
+  letter-spacing: -.039em;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+img {
+  height: 75px;
+}
+
+.about-container {
+  grid-column: 2 / 3;
+}
+
+.team-container {
+  grid-column: 3 / 4;
+}
+
+ul {
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+a {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 2.0;
+  color: #FFF;
+  margin-right: 45px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*@media all and (max-width: 500px) {
+  
+  .icon-container {
+    grid-column: 1 / 4;
+  }
+
+  nav {
+  
+    justify-content: center;
+    margin: auto !important;
+  }
+}
+*/
