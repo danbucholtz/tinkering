@@ -10,7 +10,7 @@ export class ThFooterMailingList {
   render() {
     return [
       <div class="container">
-        Blah
+        <mailing-list></mailing-list>
       </div>
     ];
   }

@@ -28,6 +28,33 @@ import '@ionic/core';
 
 
 declare global {
+  interface HTMLMailingListElement extends HTMLStencilElement {
+
+  }
+  var HTMLMailingListElement: {
+    prototype: HTMLMailingListElement;
+    new (): HTMLMailingListElement;
+  };
+  interface HTMLElementTagNameMap {
+    'mailing-list': HTMLMailingListElement;
+  }
+  interface ElementTagNameMap {
+    'mailing-list': HTMLMailingListElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'mailing-list': JSXElements.MailingListAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface MailingListAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThArchitectureProcessElement extends HTMLStencilElement {
 
   }
@@ -218,60 +245,6 @@ declare global {
   }
   namespace JSXElements {
     export interface ThGoodHandsAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-  interface HTMLThHeaderDesktopElement extends HTMLStencilElement {
-
-  }
-  var HTMLThHeaderDesktopElement: {
-    prototype: HTMLThHeaderDesktopElement;
-    new (): HTMLThHeaderDesktopElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-header-desktop': HTMLThHeaderDesktopElement;
-  }
-  interface ElementTagNameMap {
-    'th-header-desktop': HTMLThHeaderDesktopElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-header-desktop': JSXElements.ThHeaderDesktopAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThHeaderDesktopAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-  interface HTMLThHeaderMobileElement extends HTMLStencilElement {
-
-  }
-  var HTMLThHeaderMobileElement: {
-    prototype: HTMLThHeaderMobileElement;
-    new (): HTMLThHeaderMobileElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-header-mobile': HTMLThHeaderMobileElement;
-  }
-  interface ElementTagNameMap {
-    'th-header-mobile': HTMLThHeaderMobileElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-header-mobile': JSXElements.ThHeaderMobileAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThHeaderMobileAttributes extends HTMLAttributes {
 
     }
   }

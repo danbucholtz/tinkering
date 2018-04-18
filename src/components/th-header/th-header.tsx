@@ -9,12 +9,19 @@ export class ThHeader {
   
   render() {
     return [
-      <ion-show-when size="sm">
-        <th-header-desktop></th-header-desktop>
-      </ion-show-when>,
-      <ion-hide-when size="sm">
-        <th-header-mobile></th-header-mobile>
-      </ion-hide-when>
+      <div class="container">
+        <div class="logo">
+          <img src="/assets/logo.png"></img>
+          <h1>Theracode</h1>
+        </div>
+        <nav>
+          <a href="/about">About</a>
+          <a href="/blog">Blog</a>
+          <a href="/solutions">Solutions</a>
+          <a href="/Team">Team</a>
+          <ion-button>Contact</ion-button>
+        </nav>
+      </div>
     ];
   }
 }

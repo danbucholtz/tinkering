@@ -2,14 +2,12 @@
   font-family: var(--font);
   display: grid;
   grid-template-columns: auto auto auto;
-  padding-top: 50px;
 }
 
 .icon-container {
   grid-column: 1 / 2;
   display: flex;
   align-items: center;
-  flex-direction: column;
 }
 
 h1 {
@@ -51,17 +49,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-/*@media all and (max-width: 500px) {
-  
-  .icon-container {
-    grid-column: 1 / 4;
-  }
-
-  nav {
-  
-    justify-content: center;
-    margin: auto !important;
-  }
-}
-*/

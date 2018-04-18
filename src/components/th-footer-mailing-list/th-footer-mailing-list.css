@@ -1,6 +1,11 @@
 .container {
-  font-family: var(--font);
-  padding-top: 30px;
-  height: 200px;
-  background-color: red;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+@media all and (max-width: 960px) {
+  .container {
+    padding: 20px;
+  }
 }
