@@ -21,6 +21,8 @@ export class ThHeader {
           <a href="/Team">Team</a>
           <ion-button>Contact</ion-button>
         </nav>
+        <div class="menu-icon">Boom</div>
+
       </div>
     ];
   }

@@ -8,19 +8,6 @@
   font-family: var(--font);
 }
 
-@media all and (max-width: 960px) {
-  .container {
-    height: 150px;
-    flex-direction: column;
-  }
-
-  nav {
-  
-    justify-content: center;
-    margin: auto !important;
-  }
-}
-
 .logo {
   height: var(--desktop-header-height);
   margin-left: 20px;
@@ -59,4 +46,47 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media all and (max-width: 960px) {
+  .container {
+    height: 150px;
+    flex-direction: column;
+  }
+
+  nav {
+  
+    justify-content: center;
+    margin: auto !important;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .container {
+    height: 150px;
+    flex-direction: row;
+    align-items: flex-center;
+    margin-top: 0px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .logo {
+    flex-grow: 1;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
 }
