@@ -25,6 +25,7 @@ declare global {
 
 import 'ionicons';
 import '@ionic/core';
+import '@stencil/router';
 
 
 declare global {
@@ -48,6 +49,87 @@ declare global {
   }
   namespace JSXElements {
     export interface MailingListAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThAboutBodyContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThAboutBodyContentElement: {
+    prototype: HTMLThAboutBodyContentElement;
+    new (): HTMLThAboutBodyContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-about-body-content': HTMLThAboutBodyContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-about-body-content': HTMLThAboutBodyContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-about-body-content': JSXElements.ThAboutBodyContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThAboutBodyContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThAboutMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThAboutMainContentElement: {
+    prototype: HTMLThAboutMainContentElement;
+    new (): HTMLThAboutMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-about-main-content': HTMLThAboutMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-about-main-content': HTMLThAboutMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-about-main-content': JSXElements.ThAboutMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThAboutMainContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThAboutPageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThAboutPageElement: {
+    prototype: HTMLThAboutPageElement;
+    new (): HTMLThAboutPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-about-page': HTMLThAboutPageElement;
+  }
+  interface ElementTagNameMap {
+    'th-about-page': HTMLThAboutPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-about-page': JSXElements.ThAboutPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThAboutPageAttributes extends HTMLAttributes {
 
     }
   }
@@ -272,6 +354,33 @@ declare global {
   }
   namespace JSXElements {
     export interface ThHeaderAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingPageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThLandingPageElement: {
+    prototype: HTMLThLandingPageElement;
+    new (): HTMLThLandingPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-page': HTMLThLandingPageElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-page': HTMLThLandingPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-page': JSXElements.ThLandingPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingPageAttributes extends HTMLAttributes {
 
     }
   }

@@ -31,8 +31,5 @@
 body {
   margin: 0px;
   -webkit-font-smoothing: antialiased;
-  background-image: url('/assets/images/splash2.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 700px cover;
 }
 
