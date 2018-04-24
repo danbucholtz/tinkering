@@ -16,9 +16,13 @@ export class ThAboutPage {
         <th-about-main-content></th-about-main-content>
 
         <th-about-body-content></th-about-body-content>
+
+        <th-about-mission></th-about-mission>
         
         <th-footer></th-footer>
       </div>
     ]
   }
 }
+
+

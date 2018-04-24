@@ -110,6 +110,33 @@ declare global {
 
 
 declare global {
+  interface HTMLThAboutMissionElement extends HTMLStencilElement {
+
+  }
+  var HTMLThAboutMissionElement: {
+    prototype: HTMLThAboutMissionElement;
+    new (): HTMLThAboutMissionElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-about-mission': HTMLThAboutMissionElement;
+  }
+  interface ElementTagNameMap {
+    'th-about-mission': HTMLThAboutMissionElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-about-mission': JSXElements.ThAboutMissionAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThAboutMissionAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThAboutPageElement extends HTMLStencilElement {
 
   }
