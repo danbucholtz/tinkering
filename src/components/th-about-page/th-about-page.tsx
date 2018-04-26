@@ -9,7 +9,6 @@ export class ThAboutPage {
 
   render() {
     return [
-      <div class="background"></div>,
       <div class="grid">
         <th-header></th-header>
         

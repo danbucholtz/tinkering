@@ -5,7 +5,7 @@
   font-family: var(--font);
   box-shadow: 0 22px 44px 0 rgba(0,13,36,.1), 0 4px 16px 0 rgba(0,13,35,.12);
   border-radius: 16px;
-  min-height: 375px;
+  min-height: 450px;
   display: flex;
   flex-flow: column;
 }
@@ -58,4 +58,16 @@ ion-button.purple-btn button {
 
 .purple-text {
   color: var(--purple);
+}
+
+@media all and (max-width: 1170px) {
+  .container {
+    min-height: 500px;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .container {
+    min-height: 320px;
+  }
 }

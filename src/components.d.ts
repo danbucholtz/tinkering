@@ -496,6 +496,141 @@ declare global {
 
 
 declare global {
+  interface HTMLThSolutionsArchitectureContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThSolutionsArchitectureContentElement: {
+    prototype: HTMLThSolutionsArchitectureContentElement;
+    new (): HTMLThSolutionsArchitectureContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-solutions-architecture-content': HTMLThSolutionsArchitectureContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-solutions-architecture-content': HTMLThSolutionsArchitectureContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-solutions-architecture-content': JSXElements.ThSolutionsArchitectureContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThSolutionsArchitectureContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThSolutionsEngineeringContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThSolutionsEngineeringContentElement: {
+    prototype: HTMLThSolutionsEngineeringContentElement;
+    new (): HTMLThSolutionsEngineeringContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-solutions-engineering-content': HTMLThSolutionsEngineeringContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-solutions-engineering-content': HTMLThSolutionsEngineeringContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-solutions-engineering-content': JSXElements.ThSolutionsEngineeringContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThSolutionsEngineeringContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThSolutionsMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThSolutionsMainContentElement: {
+    prototype: HTMLThSolutionsMainContentElement;
+    new (): HTMLThSolutionsMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-solutions-main-content': HTMLThSolutionsMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-solutions-main-content': HTMLThSolutionsMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-solutions-main-content': JSXElements.ThSolutionsMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThSolutionsMainContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThSolutionsPageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThSolutionsPageElement: {
+    prototype: HTMLThSolutionsPageElement;
+    new (): HTMLThSolutionsPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-solutions-page': HTMLThSolutionsPageElement;
+  }
+  interface ElementTagNameMap {
+    'th-solutions-page': HTMLThSolutionsPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-solutions-page': JSXElements.ThSolutionsPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThSolutionsPageAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThSolutionsTrainingContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThSolutionsTrainingContentElement: {
+    prototype: HTMLThSolutionsTrainingContentElement;
+    new (): HTMLThSolutionsTrainingContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-solutions-training-content': HTMLThSolutionsTrainingContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-solutions-training-content': HTMLThSolutionsTrainingContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-solutions-training-content': JSXElements.ThSolutionsTrainingContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThSolutionsTrainingContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThTrainingProcessElement extends HTMLStencilElement {
 
   }

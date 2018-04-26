@@ -22,7 +22,9 @@
   --red: #f3375f;
   --orange: #ffa800;
 
-  --desktop-header-height: 91px;
+  --desktop-header-height: 101px;
+  --small-screen-header-height: 150px;
+  --header-change-to-small-screen: 960px;
   --desktop-splash-image-height: 833px;
   --desktop-main-container-height: calc(var(--desktop-splash-image-height) - var(--desktop-header-height));
   box-sizing: border-box;

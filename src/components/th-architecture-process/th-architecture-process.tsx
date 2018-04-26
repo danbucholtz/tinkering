@@ -12,10 +12,11 @@ export class ThArchitectureProcess {
       <th-generic-process 
         imagePath="/assets/images/architecture.png"
         titleText="Architecture"
-        bodyContent="Our architects help plan the optimal strategy and solution to improve team velocity and collaboration, while also addressing key technical challenges throughout the entire stack."
+        bodyContent="For Enterprise teams working on their first implementation, or upgrading an existing app, we will serve as a pivotal expert to ensure the project's success. Teams that work with Theracode enjoy faster go-to-market, higher quality applications, and more effective team members."
         buttonClass="green-btn"
         titleClass="green-text"
       ></th-generic-process>
     ];
   }
 }
+

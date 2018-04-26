@@ -1,6 +1,7 @@
 
 .container {
-  margin-top: 10px;
+  box-sizing: border-box;
+  padding-top: 10px;
   height: var(--desktop-header-height);
   display: flex;
   align-items: center;
@@ -55,9 +56,9 @@ nav a:hover {
   display: none;
 }
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 1060px) {
   .container {
-    height: 150px;
+    height: var(--small-screen-header-height);
     flex-direction: column;
   }
 
@@ -70,11 +71,10 @@ nav a:hover {
 
 @media all and (max-width: 650px) {
   .container {
-    height: 150px;
+    height: var(--small-screen-header-height);
     flex-direction: row;
     align-items: flex-center;
     margin-top: 0px;
-    height: auto;
   }
 
   h1 {

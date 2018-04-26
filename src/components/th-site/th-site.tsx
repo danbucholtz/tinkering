@@ -14,6 +14,7 @@ export class ThSite {
       <stencil-router>
         <stencil-route url='/' component='th-landing-page' exact={true}></stencil-route>
         <stencil-route url='/about' component='th-about-page'></stencil-route>
+        <stencil-route url='/solutions' component='th-solutions-page'></stencil-route>
       </stencil-router>
     )
   }
