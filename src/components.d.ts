@@ -164,6 +164,87 @@ declare global {
 
 
 declare global {
+  interface HTMLThArchitectureBodyContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThArchitectureBodyContentElement: {
+    prototype: HTMLThArchitectureBodyContentElement;
+    new (): HTMLThArchitectureBodyContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-architecture-body-content': HTMLThArchitectureBodyContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-architecture-body-content': HTMLThArchitectureBodyContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-architecture-body-content': JSXElements.ThArchitectureBodyContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThArchitectureBodyContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThArchitectureMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThArchitectureMainContentElement: {
+    prototype: HTMLThArchitectureMainContentElement;
+    new (): HTMLThArchitectureMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-architecture-main-content': HTMLThArchitectureMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-architecture-main-content': HTMLThArchitectureMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-architecture-main-content': JSXElements.ThArchitectureMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThArchitectureMainContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThArchitecturePageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThArchitecturePageElement: {
+    prototype: HTMLThArchitecturePageElement;
+    new (): HTMLThArchitecturePageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-architecture-page': HTMLThArchitecturePageElement;
+  }
+  interface ElementTagNameMap {
+    'th-architecture-page': HTMLThArchitecturePageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-architecture-page': JSXElements.ThArchitecturePageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThArchitecturePageAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThArchitectureProcessElement extends HTMLStencilElement {
 
   }
@@ -191,6 +272,114 @@ declare global {
 
 
 declare global {
+  interface HTMLThArchitectureSummaryElement extends HTMLStencilElement {
+
+  }
+  var HTMLThArchitectureSummaryElement: {
+    prototype: HTMLThArchitectureSummaryElement;
+    new (): HTMLThArchitectureSummaryElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-architecture-summary': HTMLThArchitectureSummaryElement;
+  }
+  interface ElementTagNameMap {
+    'th-architecture-summary': HTMLThArchitectureSummaryElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-architecture-summary': JSXElements.ThArchitectureSummaryAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThArchitectureSummaryAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThEngineeringBodyContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThEngineeringBodyContentElement: {
+    prototype: HTMLThEngineeringBodyContentElement;
+    new (): HTMLThEngineeringBodyContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-engineering-body-content': HTMLThEngineeringBodyContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-engineering-body-content': HTMLThEngineeringBodyContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-engineering-body-content': JSXElements.ThEngineeringBodyContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThEngineeringBodyContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThEngineeringMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThEngineeringMainContentElement: {
+    prototype: HTMLThEngineeringMainContentElement;
+    new (): HTMLThEngineeringMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-engineering-main-content': HTMLThEngineeringMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-engineering-main-content': HTMLThEngineeringMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-engineering-main-content': JSXElements.ThEngineeringMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThEngineeringMainContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThEngineeringPageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThEngineeringPageElement: {
+    prototype: HTMLThEngineeringPageElement;
+    new (): HTMLThEngineeringPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-engineering-page': HTMLThEngineeringPageElement;
+  }
+  interface ElementTagNameMap {
+    'th-engineering-page': HTMLThEngineeringPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-engineering-page': JSXElements.ThEngineeringPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThEngineeringPageAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThEngineeringProcessElement extends HTMLStencilElement {
 
   }
@@ -211,6 +400,33 @@ declare global {
   }
   namespace JSXElements {
     export interface ThEngineeringProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThEngineeringSummaryElement extends HTMLStencilElement {
+
+  }
+  var HTMLThEngineeringSummaryElement: {
+    prototype: HTMLThEngineeringSummaryElement;
+    new (): HTMLThEngineeringSummaryElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-engineering-summary': HTMLThEngineeringSummaryElement;
+  }
+  interface ElementTagNameMap {
+    'th-engineering-summary': HTMLThEngineeringSummaryElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-engineering-summary': JSXElements.ThEngineeringSummaryAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThEngineeringSummaryAttributes extends HTMLAttributes {
 
     }
   }
@@ -631,6 +847,87 @@ declare global {
 
 
 declare global {
+  interface HTMLThTrainingBodyContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThTrainingBodyContentElement: {
+    prototype: HTMLThTrainingBodyContentElement;
+    new (): HTMLThTrainingBodyContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-training-body-content': HTMLThTrainingBodyContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-training-body-content': HTMLThTrainingBodyContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-training-body-content': JSXElements.ThTrainingBodyContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThTrainingBodyContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThTrainingMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThTrainingMainContentElement: {
+    prototype: HTMLThTrainingMainContentElement;
+    new (): HTMLThTrainingMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-training-main-content': HTMLThTrainingMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-training-main-content': HTMLThTrainingMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-training-main-content': JSXElements.ThTrainingMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThTrainingMainContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThTrainingPageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThTrainingPageElement: {
+    prototype: HTMLThTrainingPageElement;
+    new (): HTMLThTrainingPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-training-page': HTMLThTrainingPageElement;
+  }
+  interface ElementTagNameMap {
+    'th-training-page': HTMLThTrainingPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-training-page': JSXElements.ThTrainingPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThTrainingPageAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThTrainingProcessElement extends HTMLStencilElement {
 
   }
@@ -651,6 +948,33 @@ declare global {
   }
   namespace JSXElements {
     export interface ThTrainingProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThTrainingSummaryElement extends HTMLStencilElement {
+
+  }
+  var HTMLThTrainingSummaryElement: {
+    prototype: HTMLThTrainingSummaryElement;
+    new (): HTMLThTrainingSummaryElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-training-summary': HTMLThTrainingSummaryElement;
+  }
+  interface ElementTagNameMap {
+    'th-training-summary': HTMLThTrainingSummaryElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-training-summary': JSXElements.ThTrainingSummaryAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThTrainingSummaryAttributes extends HTMLAttributes {
 
     }
   }
