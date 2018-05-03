@@ -29,6 +29,35 @@ import '@stencil/router';
 
 
 declare global {
+  interface HTMLCoreValueElement extends HTMLStencilElement {
+    'body': string;
+    'header': string;
+  }
+  var HTMLCoreValueElement: {
+    prototype: HTMLCoreValueElement;
+    new (): HTMLCoreValueElement;
+  };
+  interface HTMLElementTagNameMap {
+    'core-value': HTMLCoreValueElement;
+  }
+  interface ElementTagNameMap {
+    'core-value': HTMLCoreValueElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'core-value': JSXElements.CoreValueAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface CoreValueAttributes extends HTMLAttributes {
+      'body'?: string;
+      'header'?: string;
+    }
+  }
+}
+
+
+declare global {
   interface HTMLMailingListElement extends HTMLStencilElement {
 
   }
@@ -292,6 +321,87 @@ declare global {
   }
   namespace JSXElements {
     export interface ThArchitectureSummaryAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThCultureBodyContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCultureBodyContentElement: {
+    prototype: HTMLThCultureBodyContentElement;
+    new (): HTMLThCultureBodyContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-culture-body-content': HTMLThCultureBodyContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-culture-body-content': HTMLThCultureBodyContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-culture-body-content': JSXElements.ThCultureBodyContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCultureBodyContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThCultureMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCultureMainContentElement: {
+    prototype: HTMLThCultureMainContentElement;
+    new (): HTMLThCultureMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-culture-main-content': HTMLThCultureMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-culture-main-content': HTMLThCultureMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-culture-main-content': JSXElements.ThCultureMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCultureMainContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThCulturePageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCulturePageElement: {
+    prototype: HTMLThCulturePageElement;
+    new (): HTMLThCulturePageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-culture-page': HTMLThCulturePageElement;
+  }
+  interface ElementTagNameMap {
+    'th-culture-page': HTMLThCulturePageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-culture-page': JSXElements.ThCulturePageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCulturePageAttributes extends HTMLAttributes {
 
     }
   }

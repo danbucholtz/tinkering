@@ -18,6 +18,7 @@ export class ThSite {
         <stencil-route url='/architecture' component='th-architecture-page'></stencil-route>
         <stencil-route url='/training' component='th-training-page'></stencil-route>
         <stencil-route url='/engineering' component='th-engineering-page'></stencil-route>
+        <stencil-route url='/culture' component='th-culture-page'></stencil-route>
       </stencil-router>
     )
   }

@@ -20,7 +20,7 @@ export class ThHeader {
           <a href="/about">About</a>
           <a href="/blog">Blog</a>
           <a href="/solutions">Solutions</a>
-          <a href="/Team">Team</a>
+          <a href="/culture">Culture</a>
           <a href="/contact"><ion-button>Contact</ion-button></a>
         </nav>
         <div class="menu-icon">Boom</div>

@@ -1,0 +1,49 @@
+
+:root {
+  --bg-height: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  background-image: url('/assets/images/culture-splash.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% var(--bg-height);
+  background-position: center top;
+  background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+}
+
+th-header, th-footer {
+  grid-column: 1 / 9;
+}
+
+th-culture-main-content {
+  grid-column: 3 / 7;
+  height: calc(var(--bg-height) - var(--desktop-header-height));
+}
+
+th-culture-body-content {
+  grid-column: 2 / 8;
+}
+
+th-culture-summary {
+  grid-column: 1 / 9;
+}
+
+@media all and (max-width: 1080px) {
+  th-culture-main-content  {
+    grid-column: 2 / 8;
+  }
+}
+
+@media all and (max-width: 800px) {
+
+  th-culture-main-content  {
+    grid-column: 1 / 9;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}

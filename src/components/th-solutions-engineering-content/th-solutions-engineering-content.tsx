@@ -15,7 +15,7 @@ export class ThSolutionsEngineeringContent {
           <p class="subheader">
           We go beyond consulting and training, to collaborating directly with client engineers on real application code and infrastructure. Not only is each of our engineers a top-notch Ionic developer, but they're well versed in the entire stack to help resolve any and all problems your team may encounter. Each of our engineers undergoes a rigorous Ionic and full-stack screening to ensure they're exceptional engineers.
           </p>
-          <a href="/training"><ion-button>Learn More</ion-button></a>
+          <a href="/engineering"><ion-button>Learn More</ion-button></a>
         </div>
         <div class="img">
           <img src="/assets/images/code-white.png"/>
