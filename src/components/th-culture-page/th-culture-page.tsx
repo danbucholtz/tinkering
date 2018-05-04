@@ -15,6 +15,8 @@ export class ThCulturePage {
         <th-culture-main-content></th-culture-main-content>
 
         <th-culture-body-content></th-culture-body-content>
+
+        <th-culture-summary></th-culture-summary>
         
         <th-footer></th-footer>
       </div>

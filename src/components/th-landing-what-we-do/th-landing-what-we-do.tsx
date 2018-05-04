@@ -1,11 +1,11 @@
 import { Component } from '@stencil/core';
 
 @Component({
-  tag: 'th-what-we-do',
-  styleUrl: 'th-what-we-do.css',
+  tag: 'th-landing-what-we-do',
+  styleUrl: 'th-landing-what-we-do.css',
   shadow: true
 })
-export class ThWhatWeDo {
+export class ThLandingWhatWeDo {
   
   render() {
     return [

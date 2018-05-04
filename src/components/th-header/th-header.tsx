@@ -12,7 +12,7 @@ export class ThHeader {
       <div class="container">
         <a href="/">
           <div class="logo">
-            <img src="/assets/logo.png"></img>
+            <img src="/assets/images/logo.png"></img>
             <h1>Theracode</h1>
           </div>
         </a>

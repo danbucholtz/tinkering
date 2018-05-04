@@ -11,51 +11,51 @@ th-header, th-landing-team, th-footer {
   grid-column: 1 / 9;
 }
 
-th-main-content {
+th-landing-main-content {
   grid-column: 2 / 8;
 }
 
-th-what-we-do {
+th-landing-what-we-do {
   grid-column: 2 / 8;
 }
 
 
-th-good-hands {
+th-landing-good-hands {
   grid-column: 2 / 8;
 }
 
-th-architecture-process {
+th-landing-architecture-process {
   grid-column: 2 / 4;
 }
 
 
-th-training-process {
+th-landing-training-process {
   grid-column: 4 / 6;
 }
 
-th-engineering-process {
+th-landing-engineering-process {
   grid-column: 6 / 8;
 }
 
 @media all and (max-width: 1050px) {
-  th-architecture-process,
-  th-training-process,
-  th-engineering-process {
+  th-landing-architecture-process,
+  th-landing-training-process,
+  th-landing-engineering-process {
     grid-column: 2 / 8;
   }
 }
 
 @media all and (max-width: 700px) {
 
-  th-main-content {
+  th-landing-main-content {
     grid-column: 1 / 9;
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  th-architecture-process,
-  th-training-process,
-  th-engineering-process {
+  th-landing-architecture-process,
+  th-landing-training-process,
+  th-landing-engineering-process {
     grid-column: 1 / 9;
   }
 

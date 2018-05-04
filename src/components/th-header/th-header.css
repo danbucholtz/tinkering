@@ -19,7 +19,8 @@
 }
 
 img {
-  height: var(--desktop-header-height);
+  height: calc(var(--small-screen-header-height) - 90px);
+  margin-right: 10px;
 }
 
 h1 {

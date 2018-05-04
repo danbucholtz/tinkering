@@ -1,10 +1,10 @@
 import { Component, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'th-generic-process',
-  styleUrl: 'th-generic-process.css',
+  tag: 'th-landing-generic-process',
+  styleUrl: 'th-landing-generic-process.css',
 })
-export class ThGenericProcess {
+export class ThLandingGenericProcess {
 
   @Prop() imagePath: string;
   @Prop() titleText: string;
@@ -13,13 +13,12 @@ export class ThGenericProcess {
   @Prop() titleClass: string = '';
   
   render() {
-    const titleClasses = `title ${this.titleClass}`;
     return (
       <div class="container">
         <div class="img-container">
           <img class="icon" src={this.imagePath} decoding="async"></img>
         </div>
-        <h2 class={titleClasses}>{this.titleText}</h2>
+        <h1>{this.titleText}</h1>
         <div class="body">
         {this.bodyContent}
         </div>

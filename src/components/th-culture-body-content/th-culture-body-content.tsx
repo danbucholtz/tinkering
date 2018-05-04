@@ -36,11 +36,31 @@ export class ThCultureBodyContent {
         </div>
 
         <div>
-          <h1 class="green">The Internet is our office</h1>
+          <h1 class="green">The Internet is the modern office</h1>
           <p>There are so many reasons to be all-in on remote work in today's world. Makers need quiet time to think, life is way too short to waste time commuting, limiting ourselves to local candidates decreases overall talent pool, etc. We believe that remote work is more productive, collaborative, fun, and social then working in a traditional office when done correctly. In order to ensure we do things correctly, we will never have a central headquarters or office. We will also make sure that teams work collaboratively and effectively together by having consistent weekly social time and team meetings.</p>
         </div>
-      </div>
 
+        <div>
+          <h1 class="purple">No bullshit, assholes or politics</h1>
+          <p>This one's pretty simple. Life is way too short for putting up with bullshit. There's no place for any of that here, including politics. The same could be said for assholes or jerks. We're a team, and we expect each team member to be committed to helping their colleagues and being good to one another. Respecting of one another's uniqueness, skills and time is required at all times.</p>
+        </div>
+
+        <div>
+          <h1 class="orange">Interrupt driven development</h1>
+          <p>Conventional wisdom says that team's should try to minimize distractions and interruptions in order to be productive and stay focused. We think that's incorrect. We think being interrupt driven and extra responsive is the best way to provide a great service and create value. An interruption gives an opportunity to provide outstanding service to either a colleague, or a customer. This grows trust, and we've found that the dialogue that follows tends to be invaluable to understanding customer and colleague needs.</p>
+        </div>
+
+        <div>
+          <h1 class="red">Trust and context</h1>
+          <p>Everyone at Theracode is very good at what they do. We take pride is hiring very talented and very intelligent people. That said, everyone has their strengths and weaknesses. It is imperative that we facilitate and establish trust throughout the entire organization. Whether this is accomplished by respectful, kind and positive interactions, or following-up on requests, or any other method, it is imperative that we bring that our colleagues will do a great job when we rely on them to do so. Trust is hard to earn, and once it's lost, it's nearly impossible to gain back. We think the best way to keep a high level of trust is over share and provide as much context as possible about the circumstances surrounding a decision or an interaction. Providing exceptional context shows that the situation was clearly thought through and all parties can then understand the criteria, pros/cons, etc to that decision. Context is king in our world.</p>
+        </div>
+
+        <div>
+          <h1 class="green">Niches and specialization</h1>
+          <p>We believe that service-oriented companies with a very focused niche result in better outcomes for customers. That results in happier employees, and greater revenue. We're the world leaders in Ionic talent, and the quality of outcomes for our customers reflect that. We don't have delusions of grandeur or aspirations to be a massive company someday. We'd rather be the big fish in a medium sized pool then a small fish in an ocean. We want to grow slowly, and be profitable every step of the way. Being specialists in a specifc niche are the best way to accomplish that.</p>
+        </div>
+
+      </div>
 
     ];
   }

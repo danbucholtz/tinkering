@@ -11,7 +11,7 @@ export class ThFooterLinks {
     return [
       <div class="container">
         <div class="icon-container">
-          <img src="/assets/logo.png"></img>
+          <img src="/assets/images/logo.png"></img>
           <h1>Theracode</h1>
         </div>
         <div class="about-container">

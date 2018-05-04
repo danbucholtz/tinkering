@@ -1,11 +1,11 @@
 import { Component } from '@stencil/core';
 
 @Component({
-  tag: 'th-main-content',
-  styleUrl: 'th-main-content.css',
+  tag: 'th-landing-main-content',
+  styleUrl: 'th-landing-main-content.css',
   shadow: true
 })
-export class ThMainContent {
+export class ThLandingMainContent {
   
   render() {
     return [

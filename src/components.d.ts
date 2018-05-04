@@ -29,35 +29,6 @@ import '@stencil/router';
 
 
 declare global {
-  interface HTMLCoreValueElement extends HTMLStencilElement {
-    'body': string;
-    'header': string;
-  }
-  var HTMLCoreValueElement: {
-    prototype: HTMLCoreValueElement;
-    new (): HTMLCoreValueElement;
-  };
-  interface HTMLElementTagNameMap {
-    'core-value': HTMLCoreValueElement;
-  }
-  interface ElementTagNameMap {
-    'core-value': HTMLCoreValueElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'core-value': JSXElements.CoreValueAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface CoreValueAttributes extends HTMLAttributes {
-      'body'?: string;
-      'header'?: string;
-    }
-  }
-}
-
-
-declare global {
   interface HTMLMailingListElement extends HTMLStencilElement {
 
   }
@@ -274,33 +245,6 @@ declare global {
 
 
 declare global {
-  interface HTMLThArchitectureProcessElement extends HTMLStencilElement {
-
-  }
-  var HTMLThArchitectureProcessElement: {
-    prototype: HTMLThArchitectureProcessElement;
-    new (): HTMLThArchitectureProcessElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-architecture-process': HTMLThArchitectureProcessElement;
-  }
-  interface ElementTagNameMap {
-    'th-architecture-process': HTMLThArchitectureProcessElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-architecture-process': JSXElements.ThArchitectureProcessAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThArchitectureProcessAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
   interface HTMLThArchitectureSummaryElement extends HTMLStencilElement {
 
   }
@@ -409,6 +353,33 @@ declare global {
 
 
 declare global {
+  interface HTMLThCultureSummaryElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCultureSummaryElement: {
+    prototype: HTMLThCultureSummaryElement;
+    new (): HTMLThCultureSummaryElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-culture-summary': HTMLThCultureSummaryElement;
+  }
+  interface ElementTagNameMap {
+    'th-culture-summary': HTMLThCultureSummaryElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-culture-summary': JSXElements.ThCultureSummaryAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCultureSummaryAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThEngineeringBodyContentElement extends HTMLStencilElement {
 
   }
@@ -483,33 +454,6 @@ declare global {
   }
   namespace JSXElements {
     export interface ThEngineeringPageAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-  interface HTMLThEngineeringProcessElement extends HTMLStencilElement {
-
-  }
-  var HTMLThEngineeringProcessElement: {
-    prototype: HTMLThEngineeringProcessElement;
-    new (): HTMLThEngineeringProcessElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-engineering-process': HTMLThEngineeringProcessElement;
-  }
-  interface ElementTagNameMap {
-    'th-engineering-process': HTMLThEngineeringProcessElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-engineering-process': JSXElements.ThEngineeringProcessAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThEngineeringProcessAttributes extends HTMLAttributes {
 
     }
   }
@@ -625,68 +569,6 @@ declare global {
 
 
 declare global {
-  interface HTMLThGenericProcessElement extends HTMLStencilElement {
-    'bodyContent': string;
-    'buttonClass': string;
-    'imagePath': string;
-    'titleClass': string;
-    'titleText': string;
-  }
-  var HTMLThGenericProcessElement: {
-    prototype: HTMLThGenericProcessElement;
-    new (): HTMLThGenericProcessElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-generic-process': HTMLThGenericProcessElement;
-  }
-  interface ElementTagNameMap {
-    'th-generic-process': HTMLThGenericProcessElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-generic-process': JSXElements.ThGenericProcessAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThGenericProcessAttributes extends HTMLAttributes {
-      'bodyContent'?: string;
-      'buttonClass'?: string;
-      'imagePath'?: string;
-      'titleClass'?: string;
-      'titleText'?: string;
-    }
-  }
-}
-
-
-declare global {
-  interface HTMLThGoodHandsElement extends HTMLStencilElement {
-
-  }
-  var HTMLThGoodHandsElement: {
-    prototype: HTMLThGoodHandsElement;
-    new (): HTMLThGoodHandsElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-good-hands': HTMLThGoodHandsElement;
-  }
-  interface ElementTagNameMap {
-    'th-good-hands': HTMLThGoodHandsElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-good-hands': JSXElements.ThGoodHandsAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThGoodHandsAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
   interface HTMLThHeaderElement extends HTMLStencilElement {
 
   }
@@ -707,6 +589,149 @@ declare global {
   }
   namespace JSXElements {
     export interface ThHeaderAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingArchitectureProcessElement extends HTMLStencilElement {
+
+  }
+  var HTMLThLandingArchitectureProcessElement: {
+    prototype: HTMLThLandingArchitectureProcessElement;
+    new (): HTMLThLandingArchitectureProcessElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-architecture-process': HTMLThLandingArchitectureProcessElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-architecture-process': HTMLThLandingArchitectureProcessElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-architecture-process': JSXElements.ThLandingArchitectureProcessAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingArchitectureProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingEngineeringProcessElement extends HTMLStencilElement {
+
+  }
+  var HTMLThLandingEngineeringProcessElement: {
+    prototype: HTMLThLandingEngineeringProcessElement;
+    new (): HTMLThLandingEngineeringProcessElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-engineering-process': HTMLThLandingEngineeringProcessElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-engineering-process': HTMLThLandingEngineeringProcessElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-engineering-process': JSXElements.ThLandingEngineeringProcessAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingEngineeringProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingGenericProcessElement extends HTMLStencilElement {
+    'bodyContent': string;
+    'buttonClass': string;
+    'imagePath': string;
+    'titleClass': string;
+    'titleText': string;
+  }
+  var HTMLThLandingGenericProcessElement: {
+    prototype: HTMLThLandingGenericProcessElement;
+    new (): HTMLThLandingGenericProcessElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-generic-process': HTMLThLandingGenericProcessElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-generic-process': HTMLThLandingGenericProcessElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-generic-process': JSXElements.ThLandingGenericProcessAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingGenericProcessAttributes extends HTMLAttributes {
+      'bodyContent'?: string;
+      'buttonClass'?: string;
+      'imagePath'?: string;
+      'titleClass'?: string;
+      'titleText'?: string;
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingGoodHandsElement extends HTMLStencilElement {
+
+  }
+  var HTMLThLandingGoodHandsElement: {
+    prototype: HTMLThLandingGoodHandsElement;
+    new (): HTMLThLandingGoodHandsElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-good-hands': HTMLThLandingGoodHandsElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-good-hands': HTMLThLandingGoodHandsElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-good-hands': JSXElements.ThLandingGoodHandsAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingGoodHandsAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThLandingMainContentElement: {
+    prototype: HTMLThLandingMainContentElement;
+    new (): HTMLThLandingMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-main-content': HTMLThLandingMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-main-content': HTMLThLandingMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-main-content': JSXElements.ThLandingMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingMainContentAttributes extends HTMLAttributes {
 
     }
   }
@@ -768,26 +793,53 @@ declare global {
 
 
 declare global {
-  interface HTMLThMainContentElement extends HTMLStencilElement {
+  interface HTMLThLandingTrainingProcessElement extends HTMLStencilElement {
 
   }
-  var HTMLThMainContentElement: {
-    prototype: HTMLThMainContentElement;
-    new (): HTMLThMainContentElement;
+  var HTMLThLandingTrainingProcessElement: {
+    prototype: HTMLThLandingTrainingProcessElement;
+    new (): HTMLThLandingTrainingProcessElement;
   };
   interface HTMLElementTagNameMap {
-    'th-main-content': HTMLThMainContentElement;
+    'th-landing-training-process': HTMLThLandingTrainingProcessElement;
   }
   interface ElementTagNameMap {
-    'th-main-content': HTMLThMainContentElement;
+    'th-landing-training-process': HTMLThLandingTrainingProcessElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'th-main-content': JSXElements.ThMainContentAttributes;
+      'th-landing-training-process': JSXElements.ThLandingTrainingProcessAttributes;
     }
   }
   namespace JSXElements {
-    export interface ThMainContentAttributes extends HTMLAttributes {
+    export interface ThLandingTrainingProcessAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThLandingWhatWeDoElement extends HTMLStencilElement {
+
+  }
+  var HTMLThLandingWhatWeDoElement: {
+    prototype: HTMLThLandingWhatWeDoElement;
+    new (): HTMLThLandingWhatWeDoElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-landing-what-we-do': HTMLThLandingWhatWeDoElement;
+  }
+  interface ElementTagNameMap {
+    'th-landing-what-we-do': HTMLThLandingWhatWeDoElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-landing-what-we-do': JSXElements.ThLandingWhatWeDoAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThLandingWhatWeDoAttributes extends HTMLAttributes {
 
     }
   }
@@ -1038,33 +1090,6 @@ declare global {
 
 
 declare global {
-  interface HTMLThTrainingProcessElement extends HTMLStencilElement {
-
-  }
-  var HTMLThTrainingProcessElement: {
-    prototype: HTMLThTrainingProcessElement;
-    new (): HTMLThTrainingProcessElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-training-process': HTMLThTrainingProcessElement;
-  }
-  interface ElementTagNameMap {
-    'th-training-process': HTMLThTrainingProcessElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-training-process': JSXElements.ThTrainingProcessAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThTrainingProcessAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
   interface HTMLThTrainingSummaryElement extends HTMLStencilElement {
 
   }
@@ -1085,33 +1110,6 @@ declare global {
   }
   namespace JSXElements {
     export interface ThTrainingSummaryAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-  interface HTMLThWhatWeDoElement extends HTMLStencilElement {
-
-  }
-  var HTMLThWhatWeDoElement: {
-    prototype: HTMLThWhatWeDoElement;
-    new (): HTMLThWhatWeDoElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-what-we-do': HTMLThWhatWeDoElement;
-  }
-  interface ElementTagNameMap {
-    'th-what-we-do': HTMLThWhatWeDoElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-what-we-do': JSXElements.ThWhatWeDoAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThWhatWeDoAttributes extends HTMLAttributes {
 
     }
   }

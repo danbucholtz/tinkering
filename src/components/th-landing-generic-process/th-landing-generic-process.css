@@ -20,10 +20,11 @@
   height: 100%;
 }
 
-.title {
+h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .08em;
+  color: var(--nearly-black-text);
 }
 
 .body {
@@ -40,24 +41,12 @@ ion-button.green-btn button {
   background-color: var(--green);
 }
 
-.green-text {
-  color: var(--green);
-}
-
 ion-button.red-btn button {
   background-color: var(--red);
 }
 
-.red-text {
-  color: var(--red);
-}
-
 ion-button.purple-btn button {
   background-color: var(--purple);
-}
-
-.purple-text {
-  color: var(--purple);
 }
 
 @media all and (max-width: 1170px) {
