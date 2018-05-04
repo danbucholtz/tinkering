@@ -272,6 +272,141 @@ declare global {
 
 
 declare global {
+  interface HTMLThCareersBenefitsSummaryElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCareersBenefitsSummaryElement: {
+    prototype: HTMLThCareersBenefitsSummaryElement;
+    new (): HTMLThCareersBenefitsSummaryElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-careers-benefits-summary': HTMLThCareersBenefitsSummaryElement;
+  }
+  interface ElementTagNameMap {
+    'th-careers-benefits-summary': HTMLThCareersBenefitsSummaryElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-careers-benefits-summary': JSXElements.ThCareersBenefitsSummaryAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCareersBenefitsSummaryAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThCareersBodyContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCareersBodyContentElement: {
+    prototype: HTMLThCareersBodyContentElement;
+    new (): HTMLThCareersBodyContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-careers-body-content': HTMLThCareersBodyContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-careers-body-content': HTMLThCareersBodyContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-careers-body-content': JSXElements.ThCareersBodyContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCareersBodyContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThCareersMainContentElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCareersMainContentElement: {
+    prototype: HTMLThCareersMainContentElement;
+    new (): HTMLThCareersMainContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-careers-main-content': HTMLThCareersMainContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-careers-main-content': HTMLThCareersMainContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-careers-main-content': JSXElements.ThCareersMainContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCareersMainContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThCareersOpenPositionsElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCareersOpenPositionsElement: {
+    prototype: HTMLThCareersOpenPositionsElement;
+    new (): HTMLThCareersOpenPositionsElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-careers-open-positions': HTMLThCareersOpenPositionsElement;
+  }
+  interface ElementTagNameMap {
+    'th-careers-open-positions': HTMLThCareersOpenPositionsElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-careers-open-positions': JSXElements.ThCareersOpenPositionsAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCareersOpenPositionsAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLThCareersPageElement extends HTMLStencilElement {
+
+  }
+  var HTMLThCareersPageElement: {
+    prototype: HTMLThCareersPageElement;
+    new (): HTMLThCareersPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-careers-page': HTMLThCareersPageElement;
+  }
+  interface ElementTagNameMap {
+    'th-careers-page': HTMLThCareersPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-careers-page': JSXElements.ThCareersPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThCareersPageAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
   interface HTMLThCultureBodyContentElement extends HTMLStencilElement {
 
   }
