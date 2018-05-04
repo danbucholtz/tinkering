@@ -92,5 +92,18 @@ nav a:hover {
 
   .menu-icon {
     display: block;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  ion-icon {
+    fill: #FFF;
+    height: 30px;
+  }
+
+  .menu-icon button {
+    background-color: transparent;
+    border: 0px solid;
+    box-shadow: inherit;
   }
 }

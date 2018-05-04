@@ -11,7 +11,7 @@ export class MailingList {
   @State() postResult: SuccessMessage;
 
   async submitEmail() {
-    try {
+    /*try {
       await postEmailAddress(this.emailAddress);
       this.postResult = {
         success: true,
@@ -26,6 +26,7 @@ export class MailingList {
     setTimeout(() => {
       this.postResult = null;
     }, 500000);
+    */
   }
 
   render() {
@@ -48,7 +49,7 @@ export class MailingList {
 }
 
 export function postEmailAddress(_emailAddress: string) {
-  return Promise.reject(new Error(''));
+  //return Promise.reject(new Error(''));
 }
 
 interface SuccessMessage {

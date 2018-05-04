@@ -1,4 +1,5 @@
 import '@ionic/core';
+import 'ionicons';
 import '@stencil/router';
 
 import { Component } from '@stencil/core';

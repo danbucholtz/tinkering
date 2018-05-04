@@ -29,9 +29,15 @@ import '@stencil/router';
 
 
 declare global {
-  interface HTMLMailingListElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface MailingList {
+
+    }
   }
+
+  interface HTMLMailingListElement extends StencilComponents.MailingList, HTMLStencilElement {}
+
   var HTMLMailingListElement: {
     prototype: HTMLMailingListElement;
     new (): HTMLMailingListElement;
@@ -56,9 +62,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThAboutBodyContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThAboutBodyContent {
+
+    }
   }
+
+  interface HTMLThAboutBodyContentElement extends StencilComponents.ThAboutBodyContent, HTMLStencilElement {}
+
   var HTMLThAboutBodyContentElement: {
     prototype: HTMLThAboutBodyContentElement;
     new (): HTMLThAboutBodyContentElement;
@@ -83,9 +95,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThAboutMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThAboutMainContent {
+
+    }
   }
+
+  interface HTMLThAboutMainContentElement extends StencilComponents.ThAboutMainContent, HTMLStencilElement {}
+
   var HTMLThAboutMainContentElement: {
     prototype: HTMLThAboutMainContentElement;
     new (): HTMLThAboutMainContentElement;
@@ -110,9 +128,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThAboutMissionElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThAboutMission {
+
+    }
   }
+
+  interface HTMLThAboutMissionElement extends StencilComponents.ThAboutMission, HTMLStencilElement {}
+
   var HTMLThAboutMissionElement: {
     prototype: HTMLThAboutMissionElement;
     new (): HTMLThAboutMissionElement;
@@ -137,9 +161,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThAboutPageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThAboutPage {
+
+    }
   }
+
+  interface HTMLThAboutPageElement extends StencilComponents.ThAboutPage, HTMLStencilElement {}
+
   var HTMLThAboutPageElement: {
     prototype: HTMLThAboutPageElement;
     new (): HTMLThAboutPageElement;
@@ -164,9 +194,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThArchitectureBodyContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThArchitectureBodyContent {
+
+    }
   }
+
+  interface HTMLThArchitectureBodyContentElement extends StencilComponents.ThArchitectureBodyContent, HTMLStencilElement {}
+
   var HTMLThArchitectureBodyContentElement: {
     prototype: HTMLThArchitectureBodyContentElement;
     new (): HTMLThArchitectureBodyContentElement;
@@ -191,9 +227,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThArchitectureMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThArchitectureMainContent {
+
+    }
   }
+
+  interface HTMLThArchitectureMainContentElement extends StencilComponents.ThArchitectureMainContent, HTMLStencilElement {}
+
   var HTMLThArchitectureMainContentElement: {
     prototype: HTMLThArchitectureMainContentElement;
     new (): HTMLThArchitectureMainContentElement;
@@ -218,9 +260,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThArchitecturePageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThArchitecturePage {
+
+    }
   }
+
+  interface HTMLThArchitecturePageElement extends StencilComponents.ThArchitecturePage, HTMLStencilElement {}
+
   var HTMLThArchitecturePageElement: {
     prototype: HTMLThArchitecturePageElement;
     new (): HTMLThArchitecturePageElement;
@@ -245,9 +293,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThArchitectureSummaryElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThArchitectureSummary {
+
+    }
   }
+
+  interface HTMLThArchitectureSummaryElement extends StencilComponents.ThArchitectureSummary, HTMLStencilElement {}
+
   var HTMLThArchitectureSummaryElement: {
     prototype: HTMLThArchitectureSummaryElement;
     new (): HTMLThArchitectureSummaryElement;
@@ -272,9 +326,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCareersBenefitsSummaryElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCareersBenefitsSummary {
+
+    }
   }
+
+  interface HTMLThCareersBenefitsSummaryElement extends StencilComponents.ThCareersBenefitsSummary, HTMLStencilElement {}
+
   var HTMLThCareersBenefitsSummaryElement: {
     prototype: HTMLThCareersBenefitsSummaryElement;
     new (): HTMLThCareersBenefitsSummaryElement;
@@ -299,9 +359,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCareersBodyContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCareersBodyContent {
+
+    }
   }
+
+  interface HTMLThCareersBodyContentElement extends StencilComponents.ThCareersBodyContent, HTMLStencilElement {}
+
   var HTMLThCareersBodyContentElement: {
     prototype: HTMLThCareersBodyContentElement;
     new (): HTMLThCareersBodyContentElement;
@@ -326,9 +392,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCareersMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCareersMainContent {
+
+    }
   }
+
+  interface HTMLThCareersMainContentElement extends StencilComponents.ThCareersMainContent, HTMLStencilElement {}
+
   var HTMLThCareersMainContentElement: {
     prototype: HTMLThCareersMainContentElement;
     new (): HTMLThCareersMainContentElement;
@@ -353,9 +425,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCareersOpenPositionsElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCareersOpenPositions {
+
+    }
   }
+
+  interface HTMLThCareersOpenPositionsElement extends StencilComponents.ThCareersOpenPositions, HTMLStencilElement {}
+
   var HTMLThCareersOpenPositionsElement: {
     prototype: HTMLThCareersOpenPositionsElement;
     new (): HTMLThCareersOpenPositionsElement;
@@ -380,9 +458,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCareersPageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCareersPage {
+
+    }
   }
+
+  interface HTMLThCareersPageElement extends StencilComponents.ThCareersPage, HTMLStencilElement {}
+
   var HTMLThCareersPageElement: {
     prototype: HTMLThCareersPageElement;
     new (): HTMLThCareersPageElement;
@@ -407,9 +491,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCultureBodyContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCultureBodyContent {
+
+    }
   }
+
+  interface HTMLThCultureBodyContentElement extends StencilComponents.ThCultureBodyContent, HTMLStencilElement {}
+
   var HTMLThCultureBodyContentElement: {
     prototype: HTMLThCultureBodyContentElement;
     new (): HTMLThCultureBodyContentElement;
@@ -434,9 +524,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCultureMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCultureMainContent {
+
+    }
   }
+
+  interface HTMLThCultureMainContentElement extends StencilComponents.ThCultureMainContent, HTMLStencilElement {}
+
   var HTMLThCultureMainContentElement: {
     prototype: HTMLThCultureMainContentElement;
     new (): HTMLThCultureMainContentElement;
@@ -461,9 +557,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCulturePageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCulturePage {
+
+    }
   }
+
+  interface HTMLThCulturePageElement extends StencilComponents.ThCulturePage, HTMLStencilElement {}
+
   var HTMLThCulturePageElement: {
     prototype: HTMLThCulturePageElement;
     new (): HTMLThCulturePageElement;
@@ -488,9 +590,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThCultureSummaryElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThCultureSummary {
+
+    }
   }
+
+  interface HTMLThCultureSummaryElement extends StencilComponents.ThCultureSummary, HTMLStencilElement {}
+
   var HTMLThCultureSummaryElement: {
     prototype: HTMLThCultureSummaryElement;
     new (): HTMLThCultureSummaryElement;
@@ -515,9 +623,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThEngineeringBodyContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThEngineeringBodyContent {
+
+    }
   }
+
+  interface HTMLThEngineeringBodyContentElement extends StencilComponents.ThEngineeringBodyContent, HTMLStencilElement {}
+
   var HTMLThEngineeringBodyContentElement: {
     prototype: HTMLThEngineeringBodyContentElement;
     new (): HTMLThEngineeringBodyContentElement;
@@ -542,9 +656,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThEngineeringMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThEngineeringMainContent {
+
+    }
   }
+
+  interface HTMLThEngineeringMainContentElement extends StencilComponents.ThEngineeringMainContent, HTMLStencilElement {}
+
   var HTMLThEngineeringMainContentElement: {
     prototype: HTMLThEngineeringMainContentElement;
     new (): HTMLThEngineeringMainContentElement;
@@ -569,9 +689,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThEngineeringPageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThEngineeringPage {
+
+    }
   }
+
+  interface HTMLThEngineeringPageElement extends StencilComponents.ThEngineeringPage, HTMLStencilElement {}
+
   var HTMLThEngineeringPageElement: {
     prototype: HTMLThEngineeringPageElement;
     new (): HTMLThEngineeringPageElement;
@@ -596,9 +722,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThEngineeringSummaryElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThEngineeringSummary {
+
+    }
   }
+
+  interface HTMLThEngineeringSummaryElement extends StencilComponents.ThEngineeringSummary, HTMLStencilElement {}
+
   var HTMLThEngineeringSummaryElement: {
     prototype: HTMLThEngineeringSummaryElement;
     new (): HTMLThEngineeringSummaryElement;
@@ -623,9 +755,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThFooterLinksElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThFooterLinks {
+
+    }
   }
+
+  interface HTMLThFooterLinksElement extends StencilComponents.ThFooterLinks, HTMLStencilElement {}
+
   var HTMLThFooterLinksElement: {
     prototype: HTMLThFooterLinksElement;
     new (): HTMLThFooterLinksElement;
@@ -650,9 +788,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThFooterMailingListElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThFooterMailingList {
+
+    }
   }
+
+  interface HTMLThFooterMailingListElement extends StencilComponents.ThFooterMailingList, HTMLStencilElement {}
+
   var HTMLThFooterMailingListElement: {
     prototype: HTMLThFooterMailingListElement;
     new (): HTMLThFooterMailingListElement;
@@ -677,9 +821,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThFooterElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThFooter {
+
+    }
   }
+
+  interface HTMLThFooterElement extends StencilComponents.ThFooter, HTMLStencilElement {}
+
   var HTMLThFooterElement: {
     prototype: HTMLThFooterElement;
     new (): HTMLThFooterElement;
@@ -704,9 +854,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThHeaderElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThHeader {
+
+    }
   }
+
+  interface HTMLThHeaderElement extends StencilComponents.ThHeader, HTMLStencilElement {}
+
   var HTMLThHeaderElement: {
     prototype: HTMLThHeaderElement;
     new (): HTMLThHeaderElement;
@@ -731,9 +887,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingArchitectureProcessElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingArchitectureProcess {
+
+    }
   }
+
+  interface HTMLThLandingArchitectureProcessElement extends StencilComponents.ThLandingArchitectureProcess, HTMLStencilElement {}
+
   var HTMLThLandingArchitectureProcessElement: {
     prototype: HTMLThLandingArchitectureProcessElement;
     new (): HTMLThLandingArchitectureProcessElement;
@@ -758,9 +920,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingEngineeringProcessElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingEngineeringProcess {
+
+    }
   }
+
+  interface HTMLThLandingEngineeringProcessElement extends StencilComponents.ThLandingEngineeringProcess, HTMLStencilElement {}
+
   var HTMLThLandingEngineeringProcessElement: {
     prototype: HTMLThLandingEngineeringProcessElement;
     new (): HTMLThLandingEngineeringProcessElement;
@@ -785,13 +953,19 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingGenericProcessElement extends HTMLStencilElement {
-    'bodyContent': string;
-    'buttonClass': string;
-    'imagePath': string;
-    'titleClass': string;
-    'titleText': string;
+
+  namespace StencilComponents {
+    interface ThLandingGenericProcess {
+      'bodyContent': string;
+      'buttonClass': string;
+      'imagePath': string;
+      'titleClass': string;
+      'titleText': string;
+    }
   }
+
+  interface HTMLThLandingGenericProcessElement extends StencilComponents.ThLandingGenericProcess, HTMLStencilElement {}
+
   var HTMLThLandingGenericProcessElement: {
     prototype: HTMLThLandingGenericProcessElement;
     new (): HTMLThLandingGenericProcessElement;
@@ -820,9 +994,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingGoodHandsElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingGoodHands {
+
+    }
   }
+
+  interface HTMLThLandingGoodHandsElement extends StencilComponents.ThLandingGoodHands, HTMLStencilElement {}
+
   var HTMLThLandingGoodHandsElement: {
     prototype: HTMLThLandingGoodHandsElement;
     new (): HTMLThLandingGoodHandsElement;
@@ -847,9 +1027,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingMainContent {
+
+    }
   }
+
+  interface HTMLThLandingMainContentElement extends StencilComponents.ThLandingMainContent, HTMLStencilElement {}
+
   var HTMLThLandingMainContentElement: {
     prototype: HTMLThLandingMainContentElement;
     new (): HTMLThLandingMainContentElement;
@@ -874,9 +1060,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingPageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingPage {
+
+    }
   }
+
+  interface HTMLThLandingPageElement extends StencilComponents.ThLandingPage, HTMLStencilElement {}
+
   var HTMLThLandingPageElement: {
     prototype: HTMLThLandingPageElement;
     new (): HTMLThLandingPageElement;
@@ -901,9 +1093,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingTeamElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingTeam {
+
+    }
   }
+
+  interface HTMLThLandingTeamElement extends StencilComponents.ThLandingTeam, HTMLStencilElement {}
+
   var HTMLThLandingTeamElement: {
     prototype: HTMLThLandingTeamElement;
     new (): HTMLThLandingTeamElement;
@@ -928,9 +1126,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingTrainingProcessElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingTrainingProcess {
+
+    }
   }
+
+  interface HTMLThLandingTrainingProcessElement extends StencilComponents.ThLandingTrainingProcess, HTMLStencilElement {}
+
   var HTMLThLandingTrainingProcessElement: {
     prototype: HTMLThLandingTrainingProcessElement;
     new (): HTMLThLandingTrainingProcessElement;
@@ -955,9 +1159,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThLandingWhatWeDoElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThLandingWhatWeDo {
+
+    }
   }
+
+  interface HTMLThLandingWhatWeDoElement extends StencilComponents.ThLandingWhatWeDo, HTMLStencilElement {}
+
   var HTMLThLandingWhatWeDoElement: {
     prototype: HTMLThLandingWhatWeDoElement;
     new (): HTMLThLandingWhatWeDoElement;
@@ -982,9 +1192,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThSiteElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThSite {
+
+    }
   }
+
+  interface HTMLThSiteElement extends StencilComponents.ThSite, HTMLStencilElement {}
+
   var HTMLThSiteElement: {
     prototype: HTMLThSiteElement;
     new (): HTMLThSiteElement;
@@ -1009,9 +1225,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThSolutionsArchitectureContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThSolutionsArchitectureContent {
+
+    }
   }
+
+  interface HTMLThSolutionsArchitectureContentElement extends StencilComponents.ThSolutionsArchitectureContent, HTMLStencilElement {}
+
   var HTMLThSolutionsArchitectureContentElement: {
     prototype: HTMLThSolutionsArchitectureContentElement;
     new (): HTMLThSolutionsArchitectureContentElement;
@@ -1036,9 +1258,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThSolutionsEngineeringContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThSolutionsEngineeringContent {
+
+    }
   }
+
+  interface HTMLThSolutionsEngineeringContentElement extends StencilComponents.ThSolutionsEngineeringContent, HTMLStencilElement {}
+
   var HTMLThSolutionsEngineeringContentElement: {
     prototype: HTMLThSolutionsEngineeringContentElement;
     new (): HTMLThSolutionsEngineeringContentElement;
@@ -1063,9 +1291,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThSolutionsMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThSolutionsMainContent {
+
+    }
   }
+
+  interface HTMLThSolutionsMainContentElement extends StencilComponents.ThSolutionsMainContent, HTMLStencilElement {}
+
   var HTMLThSolutionsMainContentElement: {
     prototype: HTMLThSolutionsMainContentElement;
     new (): HTMLThSolutionsMainContentElement;
@@ -1090,9 +1324,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThSolutionsPageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThSolutionsPage {
+
+    }
   }
+
+  interface HTMLThSolutionsPageElement extends StencilComponents.ThSolutionsPage, HTMLStencilElement {}
+
   var HTMLThSolutionsPageElement: {
     prototype: HTMLThSolutionsPageElement;
     new (): HTMLThSolutionsPageElement;
@@ -1117,9 +1357,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThSolutionsTrainingContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThSolutionsTrainingContent {
+
+    }
   }
+
+  interface HTMLThSolutionsTrainingContentElement extends StencilComponents.ThSolutionsTrainingContent, HTMLStencilElement {}
+
   var HTMLThSolutionsTrainingContentElement: {
     prototype: HTMLThSolutionsTrainingContentElement;
     new (): HTMLThSolutionsTrainingContentElement;
@@ -1144,9 +1390,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThTrainingBodyContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThTrainingBodyContent {
+
+    }
   }
+
+  interface HTMLThTrainingBodyContentElement extends StencilComponents.ThTrainingBodyContent, HTMLStencilElement {}
+
   var HTMLThTrainingBodyContentElement: {
     prototype: HTMLThTrainingBodyContentElement;
     new (): HTMLThTrainingBodyContentElement;
@@ -1171,9 +1423,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThTrainingMainContentElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThTrainingMainContent {
+
+    }
   }
+
+  interface HTMLThTrainingMainContentElement extends StencilComponents.ThTrainingMainContent, HTMLStencilElement {}
+
   var HTMLThTrainingMainContentElement: {
     prototype: HTMLThTrainingMainContentElement;
     new (): HTMLThTrainingMainContentElement;
@@ -1198,9 +1456,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThTrainingPageElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThTrainingPage {
+
+    }
   }
+
+  interface HTMLThTrainingPageElement extends StencilComponents.ThTrainingPage, HTMLStencilElement {}
+
   var HTMLThTrainingPageElement: {
     prototype: HTMLThTrainingPageElement;
     new (): HTMLThTrainingPageElement;
@@ -1225,9 +1489,15 @@ declare global {
 
 
 declare global {
-  interface HTMLThTrainingSummaryElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface ThTrainingSummary {
+
+    }
   }
+
+  interface HTMLThTrainingSummaryElement extends StencilComponents.ThTrainingSummary, HTMLStencilElement {}
+
   var HTMLThTrainingSummaryElement: {
     prototype: HTMLThTrainingSummaryElement;
     new (): HTMLThTrainingSummaryElement;

@@ -4,7 +4,7 @@
   font-family: var(--font);
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-  padding-top: 60px;
+  padding: 60px 0px 60px 0px;
 }
 
 .what-we-do {
