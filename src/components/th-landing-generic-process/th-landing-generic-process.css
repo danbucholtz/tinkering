@@ -49,14 +49,9 @@ ion-button.purple-btn button {
   background-color: var(--purple);
 }
 
-@media all and (max-width: 1170px) {
-  .container {
-    min-height: 500px;
-  }
-}
-
-@media all and (max-width: 1050px) {
+@media all and (max-width: 1080px) {
   .container {
     min-height: 320px;
   }
 }
+

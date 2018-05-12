@@ -37,10 +37,6 @@ ion-button :first-child {
   margin: 0px;
 }
 
-ion-button .button-inner {
-  padding-top: 15px;
-}
-
 .submit-text {
   margin-top: 10px;
   color: #FFF;

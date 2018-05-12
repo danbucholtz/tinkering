@@ -23,3 +23,9 @@ h2 {
   color: #DDD;
   line-height: 1.428571429;
 }
+
+@media all and (max-width: 600px) {
+  h2 {
+    font-size: 15px;
+  }
+}

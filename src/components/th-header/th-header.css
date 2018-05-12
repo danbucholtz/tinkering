@@ -57,7 +57,7 @@ nav a:hover {
   display: none;
 }
 
-@media all and (max-width: 1060px) {
+@media all and (max-width: 1080px) {
   .container {
     height: var(--small-screen-header-height);
     flex-direction: column;
@@ -70,7 +70,7 @@ nav a:hover {
   }
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 600px) {
   .container {
     height: var(--small-screen-header-height);
     flex-direction: row;
@@ -102,8 +102,10 @@ nav a:hover {
   }
 
   .menu-icon button {
-    background-color: transparent;
+    background-color: transparent !important;
     border: 0px solid;
     box-shadow: inherit;
   }
+
+
 }

@@ -28,6 +28,16 @@
   --desktop-splash-image-height: 833px;
   --desktop-main-container-height: calc(var(--desktop-splash-image-height) - var(--desktop-header-height));
   box-sizing: border-box;
+
+  --small: 375px;
+  --medium: 600px;
+  --large: 900px;
+  --xl: 1080px;
+
+  @custom-media --small (max-width: 375px);
+  @custom-media --medium (max-width: 600px);
+  @custom-media --large (max-width: 900px);
+  @custom-media --xl (max-width: 1080px);
 }
 
 body {

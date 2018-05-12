@@ -33,7 +33,7 @@ p {
   letter-spacing: -.02em;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 960px) {
 
   .content {
     grid-column:  1 / 9;

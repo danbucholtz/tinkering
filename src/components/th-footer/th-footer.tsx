@@ -12,10 +12,8 @@ export class ThFooter {
       <div class="container">
         <th-footer-links></th-footer-links>
         <th-footer-mailing-list></th-footer-mailing-list>
+        <div class="footer">© 2018 Theracode LLC</div>
       </div>,
-      <div class="footer">
-        © 2018 Theracode LLC
-      </div>
     ];
   }
 }

@@ -39,7 +39,7 @@ img {
   height: 200px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 960px) {
   .img {
     display: none;
   }

@@ -17,15 +17,19 @@ export class ThFooterLinks {
         <div class="about-container">
           <ul>
             <li><a href="/about">About</a></li>
+            <li><a href="/architecture">Architecture</a></li>
+            <li><a href="https://medium.com/@codetherapy">Blog</a></li>
+            <li><a href="/careers">Careers</a></li>
             <li><a href="/contact">Contact</a></li>
-            <li><a href="/solutions">Solutions</a></li>
           </ul>
         </div>
         <div class="team-container">
           <ul>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/careers">Careers</a></li>
-            <li><a href="/team">Team</a></li>
+            <li><a href="/culture">Culture</a></li>
+            <li><a href="/engineering">Engineering</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/solutions">Solutions</a></li>
+            <li><a href="/training">Training</a></li>
           </ul>
         </div>
       </div>

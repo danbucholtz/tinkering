@@ -11,35 +11,40 @@ export class ThHeader {
     return [
       <div>
         <ion-menu side="start">
-            <ion-header>
-              <ion-toolbar color="secondary">
-                <ion-title>Left Menu</ion-title>
-              </ion-toolbar>
-            </ion-header>
-
             <ion-content>
               <ion-list>
-                <ion-item>Open end Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
-                <ion-item>Close Menu</ion-item>
+                <ion-item href="/">
+                  <ion-label>Home</ion-label>
+                </ion-item>
+                <ion-item href="/about">
+                  <ion-label>About</ion-label>
+                </ion-item>
+                <ion-item href="https://medium.com/@codetherapy">
+                  <ion-label>Blog</ion-label>
+                </ion-item>
+                <ion-item href="/solutions">
+                  <ion-label>Solutions</ion-label>
+                </ion-item>
+                <ion-item href="/architecture">
+                  <ion-label>Architecture Consulting</ion-label>
+                </ion-item>
+                <ion-item href="/training">
+                  <ion-label>Training/Workshops</ion-label>
+                </ion-item>
+                <ion-item href="/engineering">
+                  <ion-label>Engineering Consulting</ion-label>
+                </ion-item>
+                <ion-item href="/culture">
+                  <ion-label>Culture</ion-label>
+                </ion-item>
+                <ion-item href="/careers">
+                  <ion-label>Careers</ion-label>
+                </ion-item>
+                <ion-item href="/contact">
+                  <ion-label>Contact</ion-label>
+                </ion-item>
               </ion-list>
             </ion-content>
-
-            <ion-footer>
-              <ion-toolbar color="secondary">
-                <ion-title>Footer</ion-title>
-              </ion-toolbar>
-            </ion-footer>
-
           </ion-menu>,
 
         <div class="container" main>
@@ -51,7 +56,7 @@ export class ThHeader {
           </a>
           <nav>
             <a href="/about">About</a>
-            <a href="/blog">Blog</a>
+            <a href="https://medium.com/@codetherapy">Blog</a>
             <a href="/solutions">Solutions</a>
             <a href="/culture">Culture</a>
             <a href="/contact"><ion-button>Contact</ion-button></a>
