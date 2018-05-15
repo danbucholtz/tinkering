@@ -1,0 +1,63 @@
+
+.container {
+  margin: 15px;
+  padding: 25px;
+  font-family: var(--font);
+  box-shadow: 0 22px 44px 0 rgba(0,13,36,.1), 0 4px 16px 0 rgba(0,13,35,.12);
+  border-radius: 16px;
+  min-height: 450px;
+  display: flex;
+  flex-flow: column;
+}
+
+
+.img-container {
+  height: 100px;
+  text-align: center;
+}
+
+.icon {
+  height: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--nearly-black-text);
+}
+
+.body {
+  margin-top: 10px;
+  color: var(--light-grey-text);
+  flex-grow: 1;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+ion-button.green-btn button {
+  background-color: var(--green);
+}
+
+ion-button.red-btn button {
+  background-color: var(--red);
+}
+
+ion-button.purple-btn button {
+  background-color: var(--purple);
+}
+
+@media all and (max-width: 1080px) {
+  .container {
+    min-height: 320px;
+  }
+
+  h1 {
+    letter-spacing: .08em;
+    font-size: 30px;
+  }
+}
+
