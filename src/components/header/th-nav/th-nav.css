@@ -1,5 +1,5 @@
 
-.container {
+th-nav .container {
   padding-top: 10px;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   font-family: var(--font);
 }
 
-.logo {
+th-nav .logo {
   margin-left: 20px;
   display: flex;
   align-items: center;
@@ -15,30 +15,30 @@
   color: #FFF;
 }
 
-img {
+th-nav img {
   height: calc(var(--small-screen-header-height) - 90px);
   margin-right: 10px;
 }
 
-h1 {
+th-nav h1 {
   letter-spacing: -.039em;
   font-size: 54px;
   margin: 0px;
 }
 
 
-nav {
+th-nav nav {
   margin-left: auto;
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
 
-a {
+th-nav a {
   text-decoration: none;
 }
 
-nav a {
+th-nav nav a {
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
@@ -47,20 +47,20 @@ nav a {
   margin-right: 45px;
 }
 
-nav a:hover {
+th-nav nav a:hover {
   text-decoration: underline;
 }
 
-.menu-icon {
+th-nav .menu-icon {
   display: none;
 }
 
 @media all and (max-width: 1080px) {
-  .container {
+  th-nav .container {
     flex-direction: column;
   }
 
-  nav {
+  th-nav nav {
   
     justify-content: center;
     margin: auto !important;
@@ -68,38 +68,43 @@ nav a:hover {
 }
 
 @media all and (max-width: 700px) {
-  .container {
+  th-nav .container {
     flex-direction: row;
     align-items: flex-center;
     margin-top: 0px;
   }
 
-  h1 {
+  th-nav h1 {
     font-size: 44px;
   }
 
-  .logo {
+  th-nav .logo {
     flex-grow: 1;
   }
 
-  nav {
+  th-nav nav {
     display: none;
   }
 
-  .menu-icon {
+  th-nav .menu-icon {
     display: block;
     margin-left: auto;
     margin-right: 10px;
   }
 
-  ion-icon {
+  th-nav ion-icon {
     fill: #FFF;
     height: 30px;
   }
 
-  .menu-icon button {
+  th-nav .menu-icon button {
     background-color: transparent !important;
     border: 0px solid;
     box-shadow: inherit;
   }
+}
+
+/* this is a hack until Ionic is fixed */
+body.backdrop-no-scroll {
+  overflow: auto !important;
 }

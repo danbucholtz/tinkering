@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 @Component({
   tag: 'th-solutions-architecture-content',
   styleUrl: 'th-solutions-architecture-content.css',
-  shadow: true
+  
 })
 export class ThSolutionsArchitectureContent {
   

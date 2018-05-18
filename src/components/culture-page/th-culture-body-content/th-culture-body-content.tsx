@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 @Component({
   tag: 'th-culture-body-content',
   styleUrl: 'th-culture-body-content.css',
-  shadow: true
+  
 })
 export class ThCultureBodyContent {
   

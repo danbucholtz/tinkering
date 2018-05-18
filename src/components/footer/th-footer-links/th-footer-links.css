@@ -1,16 +1,16 @@
-.grid {
+.th-footer-links-grid {
   font-family: var(--font);
   display: grid;
   grid-template-columns: 33% 34% 33%;
 }
 
-.icon-container {
+.th-footer-links-icon-container {
   grid-column: 1 / 2;
   display: flex;
   align-items: center;
 }
 
-h1 {
+.th-footer-links-header {
   margin: 0px;
   color: #FFF;
   letter-spacing: -.039em;
@@ -18,25 +18,25 @@ h1 {
   font-weight: 500;
 }
 
-img {
+.th-footer-links-img {
   height: 50px;
   margin-right: 10px;
 }
 
-.about-container {
+.th-footer-links-about-container {
   grid-column: 2 / 3;
 }
 
-.team-container {
+.th-footer-links-team-container {
   grid-column: 3 / 4;
 }
 
-ul {
+.th-footer-links-ul {
   margin-top: 5px;
   list-style-type: none;
 }
 
-a {
+.th-footer-links-a {
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
@@ -46,25 +46,25 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.th-footer-links-a:hover {
   text-decoration: underline;
 }
 
 @media all and (max-width: 750px) {
-  .icon-container {
+  .th-footer-links-icon-container {
     grid-column: 1 / 4;
     justify-content: center;
     margin-bottom: 30px;
   }
 
-  .about-container {
+  .th-footer-links-about-container {
     grid-column: unset;
     margin-left: 75%;
     display: flex;
     justify-content: center;
   }
 
-  .team-container {
+  .th-footer-links-team-container {
     margin-left: 75%;
     grid-column: unset;
     display: flex;

@@ -1,4 +1,4 @@
-.container {
+th-landing-team .container {
   font-family: var(--font);
   background-color: var(--medium-blue);
   display: flex;
@@ -7,7 +7,7 @@
   padding: 20px 0px 20px 0px;
 }
 
-h1 {
+th-landing-team h1 {
   color: #FFF;
   text-align: center;
   letter-spacing: -.038em;
@@ -15,7 +15,7 @@ h1 {
   line-height: 1.1;
 }
 
-h2 {
+th-landing-team h2 {
   margin-top: 0px;
   text-align: center;
   color: var(--offwhite-text);
@@ -25,16 +25,16 @@ h2 {
   font-weight: 600;
 }
 
-.photo {
+th-landing-team .photo {
   text-align: center;
 }
 
-img {
+th-landing-team img {
   border-radius: 50%;
   width: 200px;
 }
 
-.copy {
+th-landing-team .copy {
   padding: 15px;
   max-width: 700px;
   margin-left: auto;
@@ -48,6 +48,6 @@ img {
   color: #FFF;
 }
 
-.second {
+th-landing-team .second {
   padding-top: 25px;
 }

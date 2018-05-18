@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 @Component({
   tag: 'th-landing-architecture-process',
   styleUrl: 'th-landing-architecture-process.css',
-  shadow: true
+  
 })
 export class ThLandingArchitectureProcess {
   

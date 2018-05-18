@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 @Component({
   tag: 'th-careers-benefits-summary',
   styleUrl: 'th-careers-benefits-summary.css',
-  shadow: true
+  
 })
 export class ThCareersBenefitsSummary {
   

@@ -9,7 +9,6 @@
 
 th-header, th-landing-team, th-footer {
   grid-column: 1 / 9;
-  background-color: blue;
 }
 th-landing-what-we-do {
   grid-column: 2 / 8;

@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 @Component({
   tag: 'th-about-mission',
   styleUrl: 'th-about-mission.css',
-  shadow: true
+  
 })
 export class ThAboutMission {
   

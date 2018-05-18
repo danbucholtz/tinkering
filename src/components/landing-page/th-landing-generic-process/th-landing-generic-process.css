@@ -1,26 +1,26 @@
 
-.container {
+th-landing-generic-process .container {
   margin: 15px;
   padding: 25px;
   font-family: var(--font);
   box-shadow: 0 22px 44px 0 rgba(0,13,36,.1), 0 4px 16px 0 rgba(0,13,35,.12);
   border-radius: 16px;
-  min-height: 450px;
+  min-height: 475px;
   display: flex;
   flex-flow: column;
 }
 
 
-.img-container {
+th-landing-generic-process .img-container {
   height: 100px;
   text-align: center;
 }
 
-.icon {
+th-landing-generic-process .icon {
   height: 100%;
 }
 
-h1 {
+th-landing-generic-process h1 {
   font-size: 24px;
   text-align: center;
   text-transform: uppercase;
@@ -28,36 +28,44 @@ h1 {
   color: var(--nearly-black-text);
 }
 
-.body {
+th-landing-generic-process .body {
   margin-top: 10px;
   color: var(--light-grey-text);
   flex-grow: 1;
 }
 
-.btn-container {
+th-landing-generic-process .btn-container {
   text-align: center;
 }
 
-ion-button.green-btn button {
+th-landing-generic-process ion-button .green-btn {
   background-color: var(--green);
 }
 
-ion-button.red-btn button {
+th-landing-generic-process ion-button .red-btn {
   background-color: var(--red);
 }
 
-ion-button.purple-btn button {
+th-landing-generic-process ion-button .purple-btn {
   background-color: var(--purple);
 }
 
+@media all and (max-width: 1350px) {
+  th-landing-generic-process .container {
+    min-height: 530px;
+  }
+}
+
 @media all and (max-width: 1080px) {
-  .container {
-    min-height: 320px;
+  th-landing-generic-process .container {
+    min-height: 380px;
   }
 
-  h1 {
+  th-landing-generic-process h1 {
     letter-spacing: .08em;
     font-size: 30px;
   }
+
+  
 }
 
