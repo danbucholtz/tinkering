@@ -12,7 +12,7 @@ export class ThCulturePage {
       <div class="grid">
         <th-header
           headerText="Our Culture"
-          subText="he Theracode team is a group of pragmatic problem solvers, creative coders, and clear communicators who take immense pride in our work. Curiosity and competitiveness drive us to learn new skils and create innovative solutions for our customers. Each of us have own unique set of why's, and we work to be better every single day."
+          subText="The Theracode team is a group of pragmatic problem solvers, creative coders, and clear communicators who take immense pride in our work. Curiosity and competitiveness drive us to learn new skils and create innovative solutions for our customers. Each of us have own unique set of why's, and we work to be better every single day."
         >
           <div slot="button" class="btn-container">
             <a href="/careers">
@@ -21,7 +21,6 @@ export class ThCulturePage {
           </div>
         </th-header>
         
-        <th-culture-main-content></th-culture-main-content>
 
         <th-culture-body-content></th-culture-body-content>
 

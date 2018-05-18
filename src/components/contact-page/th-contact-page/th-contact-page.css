@@ -3,7 +3,7 @@
   --background-image-url: url('/assets/images/culture-splash.jpg');
 }
 
-th-culture-page .grid {
+th-contact-page .grid {
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }
@@ -12,10 +12,7 @@ th-header, th-footer {
   grid-column: 1 / 9;
 }
 
-th-culture-body-content {
-  grid-column: 2 / 8;
+th-contact-body-content {
+  grid-column: 3 / 7;
 }
 
-th-culture-summary {
-  grid-column: 1 / 9;
-}

@@ -20,8 +20,6 @@ export class ThEngineeringPage {
             </a>
           </div>
         </th-header>
-        
-        <th-engineering-main-content></th-engineering-main-content>
 
         <th-engineering-body-content></th-engineering-body-content>
 

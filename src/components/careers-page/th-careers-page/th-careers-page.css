@@ -3,7 +3,7 @@
   --background-image-url: url('/assets/images/careers-splash.jpg');
 }
 
-.grid {
+th-careers-page .grid {
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }

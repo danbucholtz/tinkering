@@ -20,8 +20,6 @@ export class ThArchitecturePage {
             </a>
           </div>
         </th-header>
-        
-        <th-architecture-main-content></th-architecture-main-content>
 
         <th-architecture-body-content></th-architecture-body-content>
 

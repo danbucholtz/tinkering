@@ -30,6 +30,8 @@ export class ThSite {
           <stencil-route url='/culture' component='th-culture-page'></stencil-route>
 
           <stencil-route url='/careers' component='th-careers-page'></stencil-route>
+
+          <stencil-route url='/contact' component='th-contact-page'></stencil-route>
         </RouterSwitch>
       </stencil-router>
     )

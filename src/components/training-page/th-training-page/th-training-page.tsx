@@ -20,8 +20,6 @@ export class ThTrainingPage {
             </a>
           </div>
         </th-header>
-        
-        <th-training-main-content></th-training-main-content>
 
         <th-training-body-content></th-training-body-content>
 

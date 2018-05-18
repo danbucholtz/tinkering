@@ -361,6 +361,72 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface ThContactBodyContent {
+
+    }
+  }
+
+  interface HTMLThContactBodyContentElement extends StencilComponents.ThContactBodyContent, HTMLStencilElement {}
+
+  var HTMLThContactBodyContentElement: {
+    prototype: HTMLThContactBodyContentElement;
+    new (): HTMLThContactBodyContentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-contact-body-content': HTMLThContactBodyContentElement;
+  }
+  interface ElementTagNameMap {
+    'th-contact-body-content': HTMLThContactBodyContentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-contact-body-content': JSXElements.ThContactBodyContentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThContactBodyContentAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface ThContactPage {
+
+    }
+  }
+
+  interface HTMLThContactPageElement extends StencilComponents.ThContactPage, HTMLStencilElement {}
+
+  var HTMLThContactPageElement: {
+    prototype: HTMLThContactPageElement;
+    new (): HTMLThContactPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-contact-page': HTMLThContactPageElement;
+  }
+  interface ElementTagNameMap {
+    'th-contact-page': HTMLThContactPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-contact-page': JSXElements.ThContactPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThContactPageAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface ThCultureBodyContent {
 
     }
