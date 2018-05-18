@@ -3,7 +3,7 @@
   --background-image-url: url('/assets/images/engineering-splash.jpg');
 }
 
-.grid {
+th-engineering-page .grid {
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }
@@ -21,6 +21,6 @@ th-engineering-summary {
   grid-column: 1 / 9;
 }
 
-.btn-container {
+th-engineering-page .btn-container {
   padding-top: 20px;
 }
