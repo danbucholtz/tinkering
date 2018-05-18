@@ -3,7 +3,7 @@
   --background-image-url: url('/assets/images/solutions-splash.jpg');
 }
 
-.grid {
+th-solutions-page .grid {
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }
@@ -24,6 +24,6 @@ th-solutions-engineering-content {
   grid-column: 1 / 9;
 }
 
-.btn-container {
+th-solutions-page .btn-container {
   padding-top: 20px;
 }

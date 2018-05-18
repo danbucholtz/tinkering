@@ -1,5 +1,5 @@
 
-.container {
+th-solutions-engineering-content .container {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
@@ -9,11 +9,11 @@
   color: #FFF;
 }
 
-.content {
+th-solutions-engineering-content .content {
   grid-column: 2 / 5;
 }
 
-h1 {
+th-solutions-engineering-content h1 {
   margin: 0px;
   font-size: 32px;
   color: #FFF;
@@ -21,30 +21,30 @@ h1 {
   letter-spacing: -0.84px;
 }
 
-.subheader {
+th-solutions-engineering-content .subheader {
   font-size: 18px;
   font-weight: 500;
   color: #DDD;
   line-height: 1.428571429;
 }
 
-.img {
+th-solutions-engineering-content .img {
   grid-column: 5/9;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-img {
+th-solutions-engineering-content img {
   height: 200px;
 }
 
 @media all and (max-width: 960px) {
-  .img {
+  th-solutions-engineering-content .img {
     display: none;
   }
 
-  .content {
+  th-solutions-engineering-content .content {
     grid-column: 2 / 8;
   }
 }
