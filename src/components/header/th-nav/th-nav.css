@@ -20,7 +20,7 @@ th-nav img {
   margin-right: 10px;
 }
 
-th-nav h1 {
+th-nav .title {
   letter-spacing: -.039em;
   font-size: 54px;
   margin: 0px;
@@ -31,23 +31,24 @@ th-nav nav {
   margin-left: auto;
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  justify-content: space-evenly;
+  padding: 0px 20px 0px 50px;
+  width: 100%;
 }
 
-th-nav a {
+th-nav a, th-nav stencil-route-link {
   text-decoration: none;
 }
 
-th-nav nav a {
+th-nav nav a, th-nav nav stencil-route-link {
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: .25em;
   color: #FFF;
-  margin-right: 45px;
 }
 
-th-nav nav a:hover {
+th-nav nav a:hover, th-nav nav stencil-route-link:hover {
   text-decoration: underline;
 }
 
@@ -61,8 +62,6 @@ th-nav .menu-icon {
   }
 
   th-nav nav {
-  
-    justify-content: center;
     margin: auto !important;
   }
 }
@@ -74,7 +73,7 @@ th-nav .menu-icon {
     margin-top: 0px;
   }
 
-  th-nav h1 {
+  th-nav .title {
     font-size: 44px;
   }
 
