@@ -794,39 +794,6 @@ declare global {
 declare global {
 
   namespace StencilComponents {
-    interface ThMenu {
-
-    }
-  }
-
-  interface HTMLThMenuElement extends StencilComponents.ThMenu, HTMLStencilElement {}
-
-  var HTMLThMenuElement: {
-    prototype: HTMLThMenuElement;
-    new (): HTMLThMenuElement;
-  };
-  interface HTMLElementTagNameMap {
-    'th-menu': HTMLThMenuElement;
-  }
-  interface ElementTagNameMap {
-    'th-menu': HTMLThMenuElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'th-menu': JSXElements.ThMenuAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface ThMenuAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-
-  namespace StencilComponents {
     interface ThNav {
 
     }
@@ -1123,6 +1090,39 @@ declare global {
   }
   namespace JSXElements {
     export interface ThLandingWhatWeDoAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface ThMenu {
+
+    }
+  }
+
+  interface HTMLThMenuElement extends StencilComponents.ThMenu, HTMLStencilElement {}
+
+  var HTMLThMenuElement: {
+    prototype: HTMLThMenuElement;
+    new (): HTMLThMenuElement;
+  };
+  interface HTMLElementTagNameMap {
+    'th-menu': HTMLThMenuElement;
+  }
+  interface ElementTagNameMap {
+    'th-menu': HTMLThMenuElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'th-menu': JSXElements.ThMenuAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface ThMenuAttributes extends HTMLAttributes {
 
     }
   }

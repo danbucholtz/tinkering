@@ -1,9 +1,6 @@
 
-:host {
-  --background-image-url: url('/assets/images/culture-splash.jpg');
-}
-
 th-contact-page .grid {
+  --background-image-url: url('/assets/images/contact-splash.jpg');
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }

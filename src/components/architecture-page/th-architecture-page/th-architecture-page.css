@@ -1,9 +1,6 @@
 
-:host {
-  --background-image-url: url('/assets/images/architecture-splash.jpg');
-}
-
 th-architecture-page .grid {
+  --background-image-url: url('/assets/images/architecture-splash.jpg');
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }

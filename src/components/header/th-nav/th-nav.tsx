@@ -28,7 +28,6 @@ export class ThNav {
         <div class="menu-icon">
           <ion-menu-button></ion-menu-button>
         </div>
-        <th-menu></th-menu>
       </div>
     ];
   }

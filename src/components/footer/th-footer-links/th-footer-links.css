@@ -36,7 +36,7 @@
   list-style-type: none;
 }
 
-.th-footer-links-a {
+.th-footer-links-a,  .th-footer-links-a a {
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
@@ -46,7 +46,7 @@
   text-decoration: none;
 }
 
-.th-footer-links-a:hover {
+.th-footer-links-a :hover, .th-footer-links-a a:hover {
   text-decoration: underline;
 }
 

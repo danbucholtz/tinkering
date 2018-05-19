@@ -12,7 +12,8 @@ import { RouterSwitch } from '@stencil/router';
 export class ThSite {
 
   render() {
-    return  (
+    return  [
+      <th-menu></th-menu>,
       <stencil-router>
         <RouterSwitch scrollTopOffset={0}>
           <stencil-route url='/' component='th-landing-page' exact={true}></stencil-route>
@@ -34,6 +35,6 @@ export class ThSite {
           <stencil-route url='/contact' component='th-contact-page'></stencil-route>
         </RouterSwitch>
       </stencil-router>
-    )
+    ]
   }
 }

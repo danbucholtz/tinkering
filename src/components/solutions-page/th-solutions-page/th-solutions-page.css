@@ -1,9 +1,7 @@
 
-:root {
-  --background-image-url: url('/assets/images/solutions-splash.jpg');
-}
 
 th-solutions-page .grid {
+  --background-image-url: url('/assets/images/solutions-splash.jpg');
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }

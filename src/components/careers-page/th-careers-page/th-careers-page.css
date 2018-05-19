@@ -1,9 +1,6 @@
 
-:host {
-  --background-image-url: url('/assets/images/careers-splash.jpg');
-}
-
 th-careers-page .grid {
+  --background-image-url: url('/assets/images/careers-splash.jpg');
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }

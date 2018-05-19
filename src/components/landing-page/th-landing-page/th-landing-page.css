@@ -1,8 +1,5 @@
-:root {
+th-landing-page .grid {
   --background-image-url: url('/assets/images/landing-splash.jpg');
-}
-
-.grid {
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
 }
