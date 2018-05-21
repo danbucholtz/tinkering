@@ -1,6 +1,6 @@
 {
-  "name": "Ionic PWA Toolkit",
-  "short_name": "Ionic PWA",
+  "name": "Theracode Website",
+  "short_name": "Theracode",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
