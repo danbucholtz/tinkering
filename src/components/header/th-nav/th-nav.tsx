@@ -17,13 +17,13 @@ export class ThNav {
           </div>
         </a>
         <nav>
-          <stencil-route-link url="/about">About</stencil-route-link>
+          <th-route-link url="/about">About</th-route-link>
           <a href="https://medium.com/@codetherapy">Blog</a>
-          <stencil-route-link url="/solutions">Solutions</stencil-route-link>
-          <stencil-route-link url="/culture">Culture</stencil-route-link>
-          <stencil-route-link url="/contact">
+          <th-route-link url="/solutions">Solutions</th-route-link>
+          <th-route-link url="/culture">Culture</th-route-link>
+          <th-route-link url="/contact">
             <ion-button>Contact</ion-button>
-          </stencil-route-link>
+          </th-route-link>
         </nav>
         <div class="menu-icon">
           <ion-menu-button></ion-menu-button>

@@ -1,9 +1,7 @@
 import '@ionic/core';
 import 'ionicons';
-import '@stencil/router';
 
 import { Component } from '@stencil/core';
-import { RouterSwitch } from '@stencil/router';
 
 @Component({
   tag: 'th-site',
@@ -14,27 +12,25 @@ export class ThSite {
   render() {
     return  [
       <th-menu></th-menu>,
-      <stencil-router>
-        <RouterSwitch scrollTopOffset={0}>
-          <stencil-route url='/' component='th-landing-page' exact={true}></stencil-route>
-            
-          <stencil-route url='/about' component='th-about-page'></stencil-route>
+      <th-router>
+        <th-route url='/' component='th-landing-page'></th-route>
           
-          <stencil-route url='/solutions' component='th-solutions-page'></stencil-route>
-          
-          <stencil-route url='/architecture' component='th-architecture-page'></stencil-route>
-          
-          <stencil-route url='/training' component='th-training-page'></stencil-route>
-          
-          <stencil-route url='/engineering' component='th-engineering-page' ></stencil-route>
-          
-          <stencil-route url='/culture' component='th-culture-page'></stencil-route>
+        <th-route url='/about' component='th-about-page'></th-route>
+        
+        <th-route url='/solutions' component='th-solutions-page'></th-route>
+        
+        <th-route url='/architecture' component='th-architecture-page'></th-route>
+        
+        <th-route url='/training' component='th-training-page'></th-route>
+        
+        <th-route url='/engineering' component='th-engineering-page' ></th-route>
+        
+        <th-route url='/culture' component='th-culture-page'></th-route>
 
-          <stencil-route url='/careers' component='th-careers-page'></stencil-route>
+        <th-route url='/careers' component='th-careers-page'></th-route>
 
-          <stencil-route url='/contact' component='th-contact-page'></stencil-route>
-        </RouterSwitch>
-      </stencil-router>
+        <th-route url='/contact' component='th-contact-page'></th-route>
+      </th-router>
     ]
   }
 }

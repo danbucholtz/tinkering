@@ -16,19 +16,19 @@ export class ThFooterLinks {
         <div class="th-footer-links-about-container">
           <ul class="th-footer-links-ul">
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/about">About</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/about">About</th-route-link>
             </li>
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/architecture">Architecture</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/architecture">Architecture</th-route-link>
             </li>
             <li>
               <a class="th-footer-links-a" href="https://medium.com/@codetherapy">Blog</a>
             </li>
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/careers">Careers</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/careers">Careers</th-route-link>
             </li>
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/contact">Contact</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/contact">Contact</th-route-link>
             </li>
             <li>
               <a class="th-footer-links-a" href="https://github.com/Theracode/engineering-code-of-conduct">Code of Conduct</a>
@@ -39,19 +39,19 @@ export class ThFooterLinks {
         <div class="th-footer-links-team-container">
           <ul class="th-footer-links-ul">
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/culture">Culture</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/culture">Culture</th-route-link>
             </li>
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/engineering">Engineering</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/engineering">Engineering</th-route-link>
             </li>
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/">Home</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/">Home</th-route-link>
             </li>
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/solutions">Solutions</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/solutions">Solutions</th-route-link>
             </li>
             <li>
-              <stencil-route-link class="th-footer-links-a" url="/training">Training</stencil-route-link>
+              <th-route-link class="th-footer-links-a" url="/training">Training</th-route-link>
             </li>
           </ul>
         </div>

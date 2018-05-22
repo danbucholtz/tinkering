@@ -1,6 +1,5 @@
 {
-  "name": "@stencil/starter",
-  "private": true,
+  "name": "@theracode/website",
   "version": "0.0.1",
   "description": "Stencil App Starter",
   "files": [
